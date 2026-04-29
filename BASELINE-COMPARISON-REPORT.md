@@ -223,7 +223,9 @@ src/lib/seo.ts          | 15 +++++++++++++--
 |--------|-------|
 | Total Files | 697 |
 | HTML Pages | 317 |
-| Blog Article Pages | 40 |
+| Blog Index Pages | 4 (1 per language) |
+| Blog Article Pages | 40 (10 articles x 4 languages) |
+| Total Blog Pages | 44 |
 | Tarball Size | 7.0 MB |
 
 ### Critical URL Verification
