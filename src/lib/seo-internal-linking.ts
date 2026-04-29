@@ -161,14 +161,16 @@ const STRATEGIC_DIRECT_LINKS: Partial<Record<InternalLinkPage, InternalLinkPage[
   boardGovernanceSoftware: ['boardOfDirectorsGovernanceSoftware', 'boardManagementSoftwarePage', 'boardPortalVsEmail', 'howChooseBoardGovernanceSoftwareArticle'],
   boardOfDirectorsGovernanceSoftware: ['boardGovernanceSoftware', 'boardDecisionsTrackingSoftware', 'committeeGovernanceSoftware', 'boardGovernanceSoftwareGovernmentSaudiArabia'],
   generalAssemblyManagementSoftware: ['electronicVotingMeetings', 'generalAssemblyQuorumImportanceArticle', 'generalAssembliesSector', 'meetingMinutesSoftware'],
-  meetingMinutesSoftware: ['meetingMinutesVsWordPdf', 'aiMeetingMinutesVsManualWordPdf', 'reduceMeetingMinutesErrorsArticle', 'meetingMinutesEsignature'],
-  boardDecisionsTrackingSoftware: ['manualBoardDecisionTrackingVsAutomation', 'boardDecisionManagementVsTaskManagement', 'howTrackBoardDecisionsArticle', 'governanceReportsDashboards'],
+  meetingMinutesSoftware: ['meetingMinutesVsWordPdf', 'aiMeetingMinutesVsManualWordPdf', 'reduceMeetingMinutesErrorsArticle', 'meetingMinutesEsignature', 'meetingMinutesVsMeetingDecisionArticle'],
+  boardDecisionsTrackingSoftware: ['manualBoardDecisionTrackingVsAutomation', 'boardDecisionManagementVsTaskManagement', 'howTrackBoardDecisionsArticle', 'governanceReportsDashboards', 'meetingMinutesVsMeetingDecisionArticle'],
   committeeGovernanceSoftware: ['auditCommitteeManagementSoftware', 'riskCommitteeManagementSoftware', 'manualCommitteeManagementVsGovernancePlatform', 'committeeGovernanceBestPracticesArticle'],
   boardPortalVsEmail: ['whyEmailNotEnoughBoardGovernanceArticle', 'boardGovernanceSoftware', 'boardPortalVsSharePointGoogleDrive', 'governanceSecurityCompliance'],
   boardPortalVsTeamsZoom: ['boardPortalVsMeetingToolsGuideArticle', 'integrationsBoardGovernance', 'meetingManagementSoftware', 'governancePlatformVsMeetingSoftware'],
   aiMeetingMinutesVsManualWordPdf: ['meetingMinutesSoftware', 'aiMeetingSummariesMinutesArticle', 'aiGovernanceAssistant', 'meetingMinutesVsWordPdf'],
   boardGovernanceSoftwareGovernmentSaudiArabia: ['governmentGovernance', 'ministriesGovernmentEntitiesSector', 'governanceSecurityCompliance', 'implementationSupportTraining'],
-  blog: ['meetingManagementSoftware', 'boardGovernanceSoftware', 'generalAssemblyManagementSoftware', 'boardPortalVsEmail', 'aiMeetingMinutesVsManualWordPdf'],
+  meetingMinutesVsMeetingDecisionArticle: ['meetingMinutesSoftware', 'boardDecisionsTrackingSoftware', 'howTrackBoardDecisionsArticle', 'reduceMeetingMinutesErrorsArticle', 'decisionTracking'],
+  decisionTracking: ['boardDecisionsTrackingSoftware', 'meetingMinutesVsMeetingDecisionArticle', 'howTrackBoardDecisionsArticle', 'governanceReportsDashboards'],
+  blog: ['meetingManagementSoftware', 'boardGovernanceSoftware', 'generalAssemblyManagementSoftware', 'boardPortalVsEmail', 'aiMeetingMinutesVsManualWordPdf', 'meetingMinutesVsMeetingDecisionArticle'],
 }
 
 export const BLOG_HUB_PAGES: InternalLinkPage[] = [

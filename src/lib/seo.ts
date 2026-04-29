@@ -99,7 +99,7 @@ const pageTypeDescriptionTemplates: Partial<Record<LangCode, Record<string, (tit
     support: (title) => `${title} Diwan Suite में प्रशिक्षण, कार्यान्वयन, सहायता और परिचालन सक्षमकरण को सऊदी संस्थाओं तथा मध्यम से बड़े संगठनों के लिए स्पष्ट करता है।`,
     solution: (title) => `${title} Diwan Suite में बैठकों, समितियों, कार्यवृत्त, निर्णयों और गवर्नेंस फॉलो-अप को सऊदी संस्थाओं के लिए एक संरचित वर्कफ़्लो में व्यवस्थित करता है।`,
     sector: (title) => `${title} दिखाता है कि Diwan Suite सऊदी संस्थाओं में बोर्ड, समितियाँ, निर्णय और अनुपालन रिकॉर्ड को एक ही प्लेटफ़ॉर्म में कैसे संगठित करता है।`,
-    industry: (title) => `${title} बताता है कि Diwan Suite नियामित संस्थाओं में गवर्नेंस, बैठक रिकॉर्ड, निर्णय और कार्यान्वयन ट्रैकिंग को कैसे जोड़ता है।`,
+    industry: (title) => `${title} बताता है कि Diwan Suite नियामित संस्थाओं में गवर्नेंस, ���ैठक रिकॉर्ड, निर्णय और कार्यान्वयन ट्रैकिंग को कैसे जोड़ता है।`,
     platform: (title) => `${title} Diwan Suite में गवर्नेंस ऑटोमेशन, रिपोर्टिंग, निर्णय ट्रैकिंग और सुरक्षित कार्य निष्पादन को स्थानीय होस्टिंग के साथ समर्थन देता है।`,
     trust: (title) => `${title} Diwan Suite में सुरक्षा, अनुपालन, ऑडिट ट्रेल और गवर्नेंस नियंत्रण को सऊदी संस्थागत आवश्यकताओं के अनुसार स्पष्ट करता है।`,
     core: (title) => `${title} बताता है कि Diwan Suite सऊदी संगठनों के लिए बोर्ड गवर्नेंस, बैठक संचालन और निर्णय फॉलो-अप को कैसे समर्थन देता है।`
@@ -452,10 +452,12 @@ function buildHowItWorksSchema(lang: LangCode, page: StaticPage, canonical: stri
     name: listName,
     itemListOrder: 'https://schema.org/ItemListOrderAscending',
     numberOfItems: items.length,
+    inLanguage: getLanguageTag(lang),
     itemListElement: items.map((item, index) => ({
       '@type': 'ListItem',
       position: index + 1,
       name: item,
+      item: `${canonical}#step-${index + 1}`,
     })),
   }
 }
@@ -483,6 +485,7 @@ function buildHomeDecisionJourneySchema(lang: LangCode, canonical: string) {
       '@type': 'ListItem',
       position: index + 1,
       name: item,
+      item: `${canonical}#journey-step-${index + 1}`,
     })),
   }
 }
@@ -492,15 +495,23 @@ function buildServiceSchema(lang: LangCode, page: StaticPage, title: string, des
   if (page === 'home' || category === 'seo' || category === 'legal' || page === 'about' || page === 'privacy' || page === 'terms' || page === 'blog') return null
 
   const audiences = getAudienceList(page, lang)
+  const serviceTypeLabel = lang === 'ar'
+    ? 'خدمة حوكمة الاجتماعات'
+    : lang === 'hi'
+    ? 'मीटिंग गवर्नेंस सेवा'
+    : lang === 'ur'
+    ? 'میٹنگ گورننس سروس'
+    : 'Meeting Governance Service'
+
   return {
     '@id': `${canonical}#service`,
     '@type': 'Service',
     name: title,
     description,
-    serviceType: title,
+    serviceType: serviceTypeLabel,
     provider: { '@id': organizationId },
     areaServed: SITE_CONFIG.areaServed,
-    audience: audiences.map((audience) => ({ '@type': 'Audience', audienceType: audience })),
+    ...(audiences.length ? { audience: audiences.map((audience) => ({ '@type': 'Audience', audienceType: audience })) } : {}),
     inLanguage: getLanguageTag(lang),
     url: canonical,
   }
@@ -513,17 +524,28 @@ const softwareAppNames: Partial<Record<LangCode, string>> = {
   ur: 'Diwan Suite — بورڈ گورننس اور فیصلہ پلیٹ فارم',
 }
 
-function buildSoftwareApplicationSchema(lang: LangCode, organizationId: string): object {
+function buildSoftwareApplicationSchema(lang: LangCode, organizationId: string, canonical: string): object {
   return {
+    '@id': `${canonical}#software`,
     '@type': 'SoftwareApplication',
     name: softwareAppNames[lang] ?? softwareAppNames.en,
+    description: lang === 'ar'
+      ? 'منصة حوكمة مجالس الإدارة واللجان لإدارة الاجتماعات والمحاضر والقرارات والتنفيذ'
+      : lang === 'hi'
+      ? 'बोर्ड और समिति गवर्नेंस प्लेटफॉर्म मीटिंग, मिनट्स, निर्णय और निष्पादन के लिए'
+      : lang === 'ur'
+      ? 'بورڈ اور کمیٹی گورننس پلیٹ فارم اجلاس، محاضر، فیصلے اور نفاذ کے لیے'
+      : 'Board and committee governance platform for meetings, minutes, decisions, and execution',
     applicationCategory: 'BusinessApplication',
+    applicationSubCategory: 'Governance Software',
     operatingSystem: 'Web',
     offers: {
       '@type': 'Offer',
       priceCurrency: 'SAR',
       price: '750',
+      priceValidUntil: '2027-12-31',
       availability: 'https://schema.org/InStock',
+      url: canonical,
     },
     provider: { '@id': organizationId },
     inLanguage: SUPPORTED_LANGS.map((code) => getLanguageTag(code)),
@@ -627,7 +649,7 @@ function buildStructuredData(lang: LangCode, page: StaticPage, title: string, de
   ]
 
   if (page === 'home') {
-    graph.push(buildSoftwareApplicationSchema(lang, organizationId))
+    graph.push(buildSoftwareApplicationSchema(lang, organizationId, canonical))
   }
 
   if (serviceSchema) {
@@ -646,6 +668,8 @@ function buildStructuredData(lang: LangCode, page: StaticPage, title: string, de
     graph.push({
       '@id': faqId,
       '@type': 'FAQPage',
+      url: canonical,
+      inLanguage: getLanguageTag(lang),
       mainEntity: pageFaq,
     })
   }
