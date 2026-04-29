@@ -165,7 +165,7 @@ if (report.removed_lang_tokens_in_output.length > 0) failures.push('removed_lang
 if (report.title_too_long > 0) failures.push('title_too_long')
 if (report.meta_description_too_long > 0) failures.push('meta_description_too_long')
 if (report.max_internal_html_bytes > MAX_INTERNAL_HTML_BYTES) failures.push('max_internal_html_bytes')
-if (!report.home_faq_schema_absent) failures.push('home_faq_schema_absent')
+if (report.home_faq_schema_absent) failures.push('home_faq_schema_absent')
 if (report.max_internal_payload_bytes > MAX_INTERNAL_PAYLOAD_BYTES) failures.push('max_internal_payload_bytes')
 if (report.workflow_schema_pages < MIN_WORKFLOW_SCHEMA_PAGES) failures.push('workflow_schema_pages')
 if (report.executive_summary_pages < MIN_EXECUTIVE_SUMMARY_PAGES) failures.push('executive_summary_pages')
