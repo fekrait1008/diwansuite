@@ -203,7 +203,7 @@ npm run build
 
 ---
 
-## Appendix: Full Git Diff
+## Appendix A: Full Git Diff
 
 ```
 prerender.mjs           | 11 +++++++++--
@@ -211,4 +211,81 @@ scripts/check-seo-aeo.mjs |  2 +-
 src/lib/seo.ts          | 15 +++++++++++++--
 ---
 3 files changed, 23 insertions(+), 5 deletions(-)
+```
+
+---
+
+## Appendix B: Build Artifact Evidence
+
+### Tarball Contents (`diwansuite-build-production.tar.gz`)
+
+| Metric | Value |
+|--------|-------|
+| Total Files | 697 |
+| HTML Pages | 317 |
+| Blog Article Pages | 40 |
+| Tarball Size | 7.0 MB |
+
+### Critical URL Verification
+
+```
+./lang/ar/blog/how-to-track-board-decisions/index.html  PRESENT
+./lang/en/blog/how-to-track-board-decisions/index.html  PRESENT
+./lang/hi/blog/how-to-track-board-decisions/index.html  PRESENT
+./lang/ur/blog/how-to-track-board-decisions/index.html  PRESENT
+```
+
+### .htaccess Blog Rewrite Rules (Extracted from Tarball)
+
+```apache
+RewriteRule ^(de|fr|zh|ku|ja)/(blog(?:/[a-z0-9-]+)?)$ /ar/$2 [R=301,L,NE]
+RewriteRule ^lang/(de|fr|zh|ku|ja)/(blog(?:/[a-z0-9-]+)?)$ /ar/$2 [R=301,L,NE]
+RewriteRule ^lang/(ar|en|hi|ur)/(blog(?:/[a-z0-9-]+)?)$ /$1/$2 [R=301,L,NE]
+RewriteRule ^(ar|en|hi|ur)/(blog(?:/[a-z0-9-]+)?)$ /lang/$1/$2/index.html [L]
+```
+
+### FAQ Schema Verification (Extracted from Tarball)
+
+```
+Homepage ar: FAQPage schema PRESENT with 6 Question items
+Homepage en: FAQPage schema PRESENT with 6 Question items
+Homepage hi: FAQPage schema PRESENT with 6 Question items
+Homepage ur: FAQPage schema PRESENT with 6 Question items
+```
+
+### Sample Blog Articles in Tarball
+
+```
+./lang/ar/blog/what-is-meeting-management-software/index.html
+./lang/ar/blog/how-to-choose-board-governance-software/index.html
+./lang/ar/blog/meeting-minutes-vs-meeting-decision/index.html
+./lang/ar/blog/how-to-track-board-decisions/index.html
+./lang/ar/blog/general-assembly-quorum-importance/index.html
+./lang/ar/blog/ai-meeting-summaries-minutes/index.html
+./lang/ar/blog/committee-governance-best-practices/index.html
+./lang/ar/blog/reduce-meeting-minutes-errors/index.html
+./lang/ar/blog/why-email-not-enough-board-governance/index.html
+./lang/ar/blog/board-portal-vs-meeting-tools-guide/index.html
+```
+
+---
+
+## Appendix C: Post-Deployment Verification Commands
+
+```bash
+# Test critical URL
+curl -I https://diwansuite.com/ar/blog/how-to-track-board-decisions
+# Expected: HTTP/1.1 200 OK
+
+# Test blog rewrite
+curl -I https://diwansuite.com/en/blog/how-to-track-board-decisions
+# Expected: HTTP/1.1 200 OK
+
+# Test legacy redirect
+curl -I https://diwansuite.com/lang/ar/blog/how-to-track-board-decisions
+# Expected: HTTP/1.1 301 Moved Permanently → /ar/blog/how-to-track-board-decisions
+
+# Validate FAQ schema
+curl -s https://diwansuite.com/ar/ | grep -o '"@type":"FAQPage"'
+# Expected: "@type":"FAQPage"
 ```
