@@ -99,7 +99,7 @@ const pageTypeDescriptionTemplates: Partial<Record<LangCode, Record<string, (tit
     support: (title) => `${title} Diwan Suite में प्रशिक्षण, कार्यान्वयन, सहायता और परिचालन सक्षमकरण को सऊदी संस्थाओं तथा मध्यम से बड़े संगठनों के लिए स्पष्ट करता है।`,
     solution: (title) => `${title} Diwan Suite में बैठकों, समितियों, कार्यवृत्त, निर्णयों और गवर्नेंस फॉलो-अप को सऊदी संस्थाओं के लिए एक संरचित वर्कफ़्लो में व्यवस्थित करता है।`,
     sector: (title) => `${title} दिखाता है कि Diwan Suite सऊदी संस्थाओं में बोर्ड, समितियाँ, निर्णय और अनुपालन रिकॉर्ड को एक ही प्लेटफ़ॉर्म में कैसे संगठित करता है।`,
-    industry: (title) => `${title} बताता है कि Diwan Suite नियामित संस्थाओं में गवर्नेंस, बैठक रिकॉर्ड, निर्णय और कार्यान्वयन ट्रैकिंग को कैसे जोड़ता है।`,
+    industry: (title) => `${title} बताता है कि Diwan Suite नियामित संस्थाओं में गवर्नेंस, ���ैठक रिकॉर्ड, निर्णय और कार्यान्वयन ट्रैकिंग को कैसे जोड़ता है।`,
     platform: (title) => `${title} Diwan Suite में गवर्नेंस ऑटोमेशन, रिपोर्टिंग, निर्णय ट्रैकिंग और सुरक्षित कार्य निष्पादन को स्थानीय होस्टिंग के साथ समर्थन देता है।`,
     trust: (title) => `${title} Diwan Suite में सुरक्षा, अनुपालन, ऑडिट ट्रेल और गवर्नेंस नियंत्रण को सऊदी संस्थागत आवश्यकताओं के अनुसार स्पष्ट करता है।`,
     core: (title) => `${title} बताता है कि Diwan Suite सऊदी संगठनों के लिए बोर्ड गवर्नेंस, बैठक संचालन और निर्णय फॉलो-अप को कैसे समर्थन देता है।`
@@ -423,6 +423,13 @@ function getPageFaq(lang: LangCode, page: Exclude<StaticPage, 'home'>) {
   return buildFaqSchemaItems(items, lang)
 }
 
+function getHomeFaq(lang: LangCode) {
+  const homeAeo = getHomeAeoContent(lang)
+  const items = homeAeo.faq?.items ?? []
+  if (!items.length) return []
+  return buildFaqSchemaItems(items, lang)
+}
+
 
 
 function getAudienceList(page: StaticPage, lang: LangCode) {
@@ -532,7 +539,11 @@ function buildStructuredData(lang: LangCode, page: StaticPage, title: string, de
   const breadcrumbId = `${canonical}#breadcrumb`
   const faqId = `${canonical}#faq`
   const pageCategory = getPageCategory(page)
-  const pageFaq = page === 'home' || page === 'blog' || pageCategory === 'seo' ? [] : getPageFaq(lang, page as Exclude<StaticPage, 'home'>)
+  const pageFaq = page === 'home'
+    ? getHomeFaq(lang)
+    : page === 'blog' || pageCategory === 'seo'
+    ? []
+    : getPageFaq(lang, page as Exclude<StaticPage, 'home'>)
   const serviceSchema = buildServiceSchema(lang, page, title, description, canonical, organizationId)
   const howItWorksSchema = buildHowItWorksSchema(lang, page, canonical)
   const homeDecisionJourneySchema = page === 'home' ? buildHomeDecisionJourneySchema(lang, canonical) : null
