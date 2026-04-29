@@ -1,0 +1,45 @@
+{
+  "name": "diwan-suite-landing",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node node_modules/vite/bin/vite.js --port 4173 --strictPort",
+    "build:assets": "node scripts/optimize-assets.mjs",
+    "build": "npm run build:assets && node node_modules/typescript/lib/tsc.js -b && node node_modules/vite/bin/vite.js build && node node_modules/vite/bin/vite.js build --ssr src/entry-server.tsx --outDir dist/server && node prerender.mjs && node scripts/check-budgets.mjs && node scripts/check-seo-aeo.mjs",
+    "typecheck": "node node_modules/typescript/lib/tsc.js --noEmit",
+    "preview": "node node_modules/vite/bin/vite.js preview",
+    "check:budgets": "node scripts/check-budgets.mjs",
+    "check:seo-aeo": "node scripts/check-seo-aeo.mjs",
+    "check:live-redirects": "node scripts/check-live-redirects.mjs",
+    "check:text": "node scripts/check-text-integrity.mjs",
+    "check:text:dist": "node scripts/check-text-integrity.mjs --include-dist",
+    "check:links": "node scripts/check-links.mjs",
+    "test": "node node_modules/vitest/dist/cli.js run",
+    "test:frontend": "node node_modules/vitest/dist/cli.js run",
+    "test:php": "php tests/php/contact-security-tests.php"
+  },
+  "dependencies": {
+    "lucide-react": "^1.6.0",
+    "nodemailer": "^8.0.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "web-vitals": "^5.1.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.1",
+    "@types/node": "^24.12.0",
+    "@types/nodemailer": "^8.0.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vercel/node": "^5.7.13",
+    "@vitejs/plugin-react": "^5.2.0",
+    "@vitest/runner": "^4.1.5",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^4.2.1",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1",
+    "vitest": "^4.1.5"
+  }
+}

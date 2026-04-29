@@ -1,0 +1,620 @@
+{
+  "arabic": {
+    "360x640": {
+      "location": "/ar",
+      "viewport": {
+        "width": 360,
+        "height": 640
+      },
+      "documentDir": "rtl",
+      "horizontalOverflow": false,
+      "header": {
+        "top": 0,
+        "height": 58.32143020629883
+      },
+      "logo": {
+        "width": 524,
+        "height": 120.00000762939453,
+        "top": -31.125001907348633,
+        "left": -180.50001525878906,
+        "right": 343.49998474121094,
+        "clippedTop": true,
+        "clippedLeft": true,
+        "clippedRight": false
+      },
+      "menuButton": {
+        "exists": true,
+        "width": 16.5,
+        "height": 37.125,
+        "top": 10.3125,
+        "left": -209.37501525878906,
+        "ariaExpanded": "false",
+        "label": "فتح القائمة"
+      },
+      "hero": {
+        "headingTop": 157.58929443359375,
+        "headingHeight": 98.73214721679688,
+        "buttons": [
+          {
+            "href": "#booking-cta",
+            "width": 318.75,
+            "left": 20.625,
+            "right": 339.375
+          },
+          {
+            "href": "tel:+966560000934",
+            "width": 318.75,
+            "left": 20.625,
+            "right": 339.375
+          }
+        ]
+      },
+      "sectionCount": 18,
+      "gapBeforePricing": -0.00048828125,
+      "sectionsAroundPricing": {
+        "previous": {
+          "index": 14,
+          "id": "enterprise-readiness",
+          "top": 24225.287109375,
+          "bottom": 31599.91259765625,
+          "height": 7374.62548828125
+        },
+        "pricing": {
+          "index": 15,
+          "id": "pricing",
+          "top": 31599.912109375,
+          "bottom": 34169.787109375,
+          "height": 2569.875
+        }
+      }
+    },
+    "390x844": {
+      "location": "/ar",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "documentDir": "rtl",
+      "horizontalOverflow": false,
+      "header": {
+        "top": 0,
+        "height": 58.32143020629883
+      },
+      "logo": {
+        "width": 524,
+        "height": 120.00000762939453,
+        "top": -31.125001907348633,
+        "left": -150.21429443359375,
+        "right": 373.78570556640625,
+        "clippedTop": true,
+        "clippedLeft": true,
+        "clippedRight": false
+      },
+      "menuButton": {
+        "exists": true,
+        "width": 16.5,
+        "height": 37.125,
+        "top": 10.3125,
+        "left": -179.08929443359375,
+        "ariaExpanded": "false",
+        "label": "فتح القائمة"
+      },
+      "hero": {
+        "headingTop": 157.58929443359375,
+        "headingHeight": 65.8214340209961,
+        "buttons": [
+          {
+            "href": "#booking-cta",
+            "width": 349.0357360839844,
+            "left": 20.625,
+            "right": 369.6607360839844
+          },
+          {
+            "href": "tel:+966560000934",
+            "width": 349.0357360839844,
+            "left": 20.625,
+            "right": 369.6607360839844
+          }
+        ]
+      },
+      "sectionCount": 18,
+      "gapBeforePricing": -0.00048828125,
+      "sectionsAroundPricing": {
+        "previous": {
+          "index": 14,
+          "id": "enterprise-readiness",
+          "top": 23730.822265625,
+          "bottom": 30734.19775390625,
+          "height": 7003.37548828125
+        },
+        "pricing": {
+          "index": 15,
+          "id": "pricing",
+          "top": 30734.197265625,
+          "bottom": 33287.572265625,
+          "height": 2553.375
+        }
+      },
+      "menuOpen": {
+        "ariaExpanded": "true",
+        "drawerExists": true,
+        "drawerOpen": true,
+        "drawerRect": {
+          "top": 0,
+          "left": 0,
+          "right": 390.2857360839844,
+          "width": 390.2857360839844,
+          "height": 844.0000610351562
+        },
+        "bodyOverflow": "hidden",
+        "htmlOverflow": "hidden"
+      },
+      "menuClosedAfterEscape": {
+        "ariaExpanded": "false"
+      },
+      "pricingViewport": {
+        "pricingTop": 30704.484375,
+        "cards": [
+          {
+            "index": 0,
+            "text": "حزمة الانطلاق",
+            "top": 30920.15234375,
+            "width": 349.0357360839844
+          },
+          {
+            "index": 1,
+            "text": "حزمة الأعمال",
+            "top": 31437.4921875,
+            "width": 349.0357360839844
+          },
+          {
+            "index": 2,
+            "text": "حزمة الحوكمة المؤسسية",
+            "top": 31954.83203125,
+            "width": 349.0357360839844
+          }
+        ]
+      }
+    },
+    "414x896": {
+      "location": "/ar",
+      "viewport": {
+        "width": 414,
+        "height": 896
+      },
+      "documentDir": "rtl",
+      "horizontalOverflow": false,
+      "header": {
+        "top": 0,
+        "height": 58.32143020629883
+      },
+      "logo": {
+        "width": 524,
+        "height": 120.00000762939453,
+        "top": -31.125001907348633,
+        "left": -126.21429443359375,
+        "right": 397.78570556640625,
+        "clippedTop": true,
+        "clippedLeft": true,
+        "clippedRight": false
+      },
+      "menuButton": {
+        "exists": true,
+        "width": 16.5,
+        "height": 37.125,
+        "top": 10.3125,
+        "left": -155.08929443359375,
+        "ariaExpanded": "false",
+        "label": "فتح القائمة"
+      },
+      "hero": {
+        "headingTop": 136.96429443359375,
+        "headingHeight": 65.8214340209961,
+        "buttons": [
+          {
+            "href": "#booking-cta",
+            "width": 373.0357360839844,
+            "left": 20.625,
+            "right": 393.6607360839844
+          },
+          {
+            "href": "tel:+966560000934",
+            "width": 373.0357360839844,
+            "left": 20.625,
+            "right": 393.6607360839844
+          }
+        ]
+      },
+      "sectionCount": 18,
+      "gapBeforePricing": -0.00048828125,
+      "sectionsAroundPricing": {
+        "previous": {
+          "index": 14,
+          "id": "enterprise-readiness",
+          "top": 23456.376953125,
+          "bottom": 30213.89501953125,
+          "height": 6757.51806640625
+        },
+        "pricing": {
+          "index": 15,
+          "id": "pricing",
+          "top": 30213.89453125,
+          "bottom": 32701.26953125,
+          "height": 2487.375
+        }
+      }
+    },
+    "768x1024": {
+      "location": "/ar",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "documentDir": "rtl",
+      "horizontalOverflow": false,
+      "header": {
+        "top": 0,
+        "height": 60.07143020629883
+      },
+      "logo": {
+        "width": 524,
+        "height": 120.00000762939453,
+        "top": -30.250001907348633,
+        "left": 213.92857360839844,
+        "right": 737.9285736083984,
+        "clippedTop": true,
+        "clippedLeft": false,
+        "clippedRight": false
+      },
+      "menuButton": {
+        "exists": true,
+        "width": 38.25,
+        "height": 38.25,
+        "top": 10.625,
+        "left": 114.12500762939453,
+        "ariaExpanded": "false",
+        "label": "فتح القائمة"
+      },
+      "hero": {
+        "headingTop": 150.60714721679688,
+        "headingHeight": 33.91071701049805,
+        "buttons": [
+          {
+            "href": "#booking-cta",
+            "width": 224.9910888671875,
+            "left": 512.9375,
+            "right": 737.9285888671875
+          },
+          {
+            "href": "tel:+966560000934",
+            "width": 204.3482208251953,
+            "left": 295.83929443359375,
+            "right": 500.18751525878906
+          }
+        ]
+      },
+      "sectionCount": 18,
+      "gapBeforePricing": -0.00048828125,
+      "sectionsAroundPricing": {
+        "previous": {
+          "index": 14,
+          "id": "enterprise-readiness",
+          "top": 17256.15234375,
+          "bottom": 21691.04541015625,
+          "height": 4434.89306640625
+        },
+        "pricing": {
+          "index": 15,
+          "id": "pricing",
+          "top": 21691.044921875,
+          "bottom": 23524.312866210938,
+          "height": 1833.2679443359375
+        }
+      }
+    },
+    "1024x900": {
+      "location": "/ar",
+      "viewport": {
+        "width": 1024,
+        "height": 900
+      },
+      "documentDir": "rtl",
+      "horizontalOverflow": false,
+      "header": {
+        "top": 0,
+        "height": 72.5714340209961
+      },
+      "logo": {
+        "width": 524,
+        "height": 120.00000762939453,
+        "top": -24.000001907348633,
+        "left": 461.4285888671875,
+        "right": 985.4285888671875,
+        "clippedTop": true,
+        "clippedLeft": false,
+        "clippedRight": false
+      },
+      "menuButton": {
+        "exists": true,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "left": 0,
+        "ariaExpanded": "false",
+        "label": "فتح القائمة"
+      },
+      "hero": {
+        "headingTop": 289.8035888671875,
+        "headingHeight": 84.05357360839844,
+        "buttons": [
+          {
+            "href": "#booking-cta",
+            "width": 224.9910888671875,
+            "left": 251.0982208251953,
+            "right": 476.0893096923828
+          },
+          {
+            "href": "tel:+966560000934",
+            "width": 204.3482208251953,
+            "left": 34,
+            "right": 238.3482208251953
+          }
+        ]
+      },
+      "sectionCount": 18,
+      "gapBeforePricing": 0.00048828125,
+      "sectionsAroundPricing": {
+        "previous": {
+          "index": 14,
+          "id": "enterprise-readiness",
+          "top": 15034.322265625,
+          "bottom": 19415.72412109375,
+          "height": 4381.40185546875
+        },
+        "pricing": {
+          "index": 15,
+          "id": "pricing",
+          "top": 19415.724609375,
+          "bottom": 20601.894287109375,
+          "height": 1186.169677734375
+        }
+      }
+    }
+  },
+  "english390": {
+    "location": "/en",
+    "dir": "rtl",
+    "headerHeight": 58.32143020629883,
+    "logo": {
+      "width": 524,
+      "height": 120.00000762939453,
+      "clippedLeft": true,
+      "clippedRight": false
+    },
+    "menuButton": {
+      "exists": true,
+      "ariaExpanded": "false",
+      "width": 16.5,
+      "height": 37.125
+    },
+    "overflow": false
+  },
+  "domChecks": {
+    "bookingInsideMain": true,
+    "footerAfterBooking": false,
+    "bookingCount": 1,
+    "landmarks": [
+      {
+        "tag": "header",
+        "id": null,
+        "role": null
+      },
+      {
+        "tag": "nav",
+        "id": null,
+        "role": null
+      },
+      {
+        "tag": "main",
+        "id": "main-content",
+        "role": null
+      },
+      {
+        "tag": "footer",
+        "id": null,
+        "role": null
+      },
+      {
+        "tag": "footer",
+        "id": null,
+        "role": null
+      },
+      {
+        "tag": "footer",
+        "id": null,
+        "role": null
+      },
+      {
+        "tag": "footer",
+        "id": null,
+        "role": null
+      },
+      {
+        "tag": "footer",
+        "id": null,
+        "role": null
+      },
+      {
+        "tag": "footer",
+        "id": null,
+        "role": null
+      },
+      {
+        "tag": "footer",
+        "id": null,
+        "role": "contentinfo"
+      }
+    ],
+    "footerLinks": [
+      {
+        "text": "",
+        "href": "/ar"
+      },
+      {
+        "text": "نظام إدارة مجالس الإدارة",
+        "href": "/ar/board-management-system"
+      },
+      {
+        "text": "برنامج إدارة اللجان",
+        "href": "/ar/committee-management-software"
+      },
+      {
+        "text": "إدارة الجمعيات العمومية",
+        "href": "/ar/general-assembly-management"
+      },
+      {
+        "text": "نظام أمين سر مجلس الإدارة",
+        "href": "/ar/board-secretary-system"
+      },
+      {
+        "text": "محاضر الاجتماعات والتوقيع الإلكتروني",
+        "href": "/ar/meeting-minutes-e-signature"
+      },
+      {
+        "text": "إدارة ومتابعة القرارات",
+        "href": "/ar/decision-management-tracking"
+      },
+      {
+        "text": "وكيل الذكاء الاصطناعي للحوكمة",
+        "href": "/ar/ai-governance-assistant"
+      },
+      {
+        "text": "الذكاء الاصطناعي في حوكمة القرار",
+        "href": "/ar/ai-governance-decision-support"
+      },
+      {
+        "text": "الحضور والنصاب عبر QR",
+        "href": "/ar/attendance-quorum-qr"
+      },
+      {
+        "text": "تقارير الحوكمة التنفيذية",
+        "href": "/ar/governance-reports"
+      },
+      {
+        "text": "التقارير ولوحات التحكم",
+        "href": "/ar/governance-reports-dashboards"
+      },
+      {
+        "text": "تكاملات النظام",
+        "href": "/ar/integrations-board-governance"
+      },
+      {
+        "text": "العائد على الاستثمار في حوكمة الاجتماعات",
+        "href": "/ar/roi-board-governance"
+      },
+      {
+        "text": "حوكمة الشركات القابضة",
+        "href": "/ar/sectors/holding-companies-governance"
+      },
+      {
+        "text": "حوكمة الشركات الحكومية",
+        "href": "/ar/sectors/government-companies-governance"
+      },
+      {
+        "text": "حوكمة الجهات الخيرية",
+        "href": "/ar/sectors/charitable-entities-governance"
+      },
+      {
+        "text": "حوكمة الجامعات والمعاهد",
+        "href": "/ar/sectors/universities-institutes-governance"
+      },
+      {
+        "text": "الوزارات والجهات الحكومية",
+        "href": "/ar/sectors/ministries-government-entities-governance"
+      },
+      {
+        "text": "حوكمة الهيئات والمنظمات",
+        "href": "/ar/sectors/authorities-organizations-governance"
+      },
+      {
+        "text": "حوكمة الأمانات والبلديات",
+        "href": "/ar/sectors/municipalities-governance"
+      },
+      {
+        "text": "حوكمة المستشفيات والعيادات",
+        "href": "/ar/sectors/hospitals-clinics-governance"
+      },
+      {
+        "text": "حوكمة اتحادات الملاك",
+        "href": "/ar/sectors/homeowners-associations-governance"
+      },
+      {
+        "text": "حوكمة الجمعية العمومية",
+        "href": "/ar/sectors/general-assemblies-governance"
+      },
+      {
+        "text": "حوكمة للجهات الحكومية",
+        "href": "/ar/government-governance-platform"
+      },
+      {
+        "text": "حوكمة للشركات المدرجة",
+        "href": "/ar/listed-companies-governance"
+      },
+      {
+        "text": "حوكمة للبنوك والقطاع المالي",
+        "href": "/ar/banking-financial-governance"
+      },
+      {
+        "text": "جميع القطاعات",
+        "href": "/ar/sectors"
+      },
+      {
+        "text": "مركز الموارد",
+        "href": "/ar/blog"
+      },
+      {
+        "text": "من نحن",
+        "href": "/ar/about"
+      },
+      {
+        "text": "تواصل معنا",
+        "href": "#booking-cta"
+      },
+      {
+        "text": "الدعم",
+        "href": "/ar/support"
+      },
+      {
+        "text": "سياسة الخصوصية",
+        "href": "/ar/privacy"
+      },
+      {
+        "text": "الشروط والأحكام",
+        "href": "/ar/terms"
+      }
+    ],
+    "headerLinks": [
+      {
+        "text": "",
+        "href": "/ar"
+      },
+      {
+        "text": "الرئيسية",
+        "href": "/ar"
+      },
+      {
+        "text": "الباقات",
+        "href": "#pricing"
+      },
+      {
+        "text": "احجز عرضاً",
+        "href": "#booking-cta"
+      },
+      {
+        "text": "احجز عرضاً",
+        "href": "#booking-cta"
+      }
+    ],
+    "homepageHasBlogLink": false
+  }
+}

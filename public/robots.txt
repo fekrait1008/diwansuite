@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /lang/
+Disallow: /server/
+Allow: /
+
+Sitemap: https://diwansuite.com/sitemap.xml

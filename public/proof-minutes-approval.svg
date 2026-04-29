@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-label="Meeting minutes drafting and electronic approval interface">
+  <rect width="960" height="640" fill="#0f172a"/>
+  <rect width="960" height="52" fill="#1e293b"/>
+  <rect x="18" y="16" width="20" height="20" rx="4" fill="#3b82f6"/>
+  <rect x="44" y="20" width="80" height="12" rx="3" fill="#94a3b8"/>
+  <rect x="800" y="16" width="64" height="20" rx="4" fill="#1d4ed8"/>
+  <circle cx="884" cy="26" r="9" fill="#374151"/>
+  <!-- Sidebar -->
+  <rect x="0" y="52" width="200" height="588" fill="#1e293b"/>
+  <rect x="12" y="72" width="176" height="36" rx="6" fill="#2563eb"/>
+  <rect x="28" y="84" width="12" height="12" rx="2" fill="#bfdbfe"/>
+  <rect x="48" y="86" width="70" height="8" rx="2" fill="#bfdbfe"/>
+  <rect x="12" y="116" width="176" height="32" rx="6"/>
+  <rect x="28" y="128" width="12" height="8" rx="2" fill="#64748b"/>
+  <rect x="48" y="130" width="60" height="6" rx="2" fill="#64748b"/>
+  <rect x="12" y="152" width="176" height="32" rx="6"/>
+  <rect x="28" y="164" width="12" height="8" rx="2" fill="#64748b"/>
+  <rect x="48" y="166" width="75" height="6" rx="2" fill="#64748b"/>
+
+  <!-- Main -->
+  <rect x="200" y="52" width="760" height="588" fill="#0f172a"/>
+
+  <!-- Page header -->
+  <rect x="220" y="72" width="200" height="14" rx="3" fill="#e2e8f0"/>
+  <rect x="220" y="92" width="140" height="8" rx="2" fill="#64748b"/>
+  <rect x="826" y="70" width="108" height="28" rx="6" fill="#1d4ed8"/>
+  <rect x="838" y="80" width="84" height="8" rx="2" fill="#bfdbfe"/>
+
+  <!-- Split layout: editor left, approval panel right -->
+  <!-- Document editor -->
+  <rect x="220" y="118" width="440" height="484" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+
+  <!-- Editor toolbar -->
+  <rect x="220" y="118" width="440" height="44" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <rect x="236" y="132" width="20" height="16" rx="3" fill="#334155"/>
+  <rect x="262" y="132" width="20" height="16" rx="3" fill="#334155"/>
+  <rect x="288" y="132" width="20" height="16" rx="3" fill="#334155"/>
+  <rect x="320" y="130" width="1" height="20" fill="#475569"/>
+  <rect x="330" y="132" width="30" height="16" rx="3" fill="#334155"/>
+  <rect x="366" y="132" width="30" height="16" rx="3" fill="#334155"/>
+  <rect x="402" y="132" width="30" height="16" rx="3" fill="#334155"/>
+  <rect x="444" y="130" width="1" height="20" fill="#475569"/>
+  <rect x="454" y="132" width="60" height="16" rx="3" fill="#334155"/>
+  <rect x="520" y="132" width="60" height="16" rx="3" fill="#334155"/>
+  <rect x="590" y="132" width="54" height="16" rx="3" fill="#1d4ed8" opacity="0.7"/>
+  <rect x="596" y="136" width="42" height="8" rx="2" fill="#bfdbfe"/>
+
+  <!-- Document content -->
+  <rect x="236" y="178" width="200" height="12" rx="3" fill="#e2e8f0"/>
+  <rect x="236" y="198" width="140" height="6" rx="2" fill="#64748b"/>
+  <rect x="236" y="222" width="390" height="1" fill="#334155"/>
+
+  <!-- Section: Attendance -->
+  <rect x="236" y="234" width="100" height="8" rx="2" fill="#94a3b8"/>
+  <rect x="236" y="250" width="390" height="6" rx="2" fill="#475569"/>
+  <rect x="236" y="262" width="350" height="6" rx="2" fill="#475569"/>
+  <rect x="236" y="274" width="370" height="6" rx="2" fill="#475569"/>
+
+  <!-- Section: Agenda items -->
+  <rect x="236" y="296" width="110" height="8" rx="2" fill="#94a3b8"/>
+  <rect x="236" y="312" width="390" height="6" rx="2" fill="#475569"/>
+  <rect x="236" y="324" width="360" height="6" rx="2" fill="#475569"/>
+
+  <!-- Section: Decisions (highlighted) -->
+  <rect x="228" y="345" width="406" height="64" rx="6" fill="#1e3a5f" opacity="0.5"/>
+  <rect x="236" y="353" width="110" height="8" rx="2" fill="#60a5fa"/>
+  <rect x="236" y="369" width="390" height="6" rx="2" fill="#94a3b8"/>
+  <rect x="236" y="381" width="330" height="6" rx="2" fill="#94a3b8"/>
+  <rect x="236" y="393" width="360" height="6" rx="2" fill="#94a3b8"/>
+
+  <!-- Section: Follow up -->
+  <rect x="236" y="424" width="90" height="8" rx="2" fill="#94a3b8"/>
+  <rect x="236" y="440" width="390" height="6" rx="2" fill="#475569"/>
+  <rect x="236" y="452" width="340" height="6" rx="2" fill="#475569"/>
+
+  <!-- Signature block -->
+  <rect x="236" y="480" width="390" height="1" fill="#334155"/>
+  <rect x="236" y="492" width="110" height="8" rx="2" fill="#94a3b8"/>
+  <rect x="236" y="510" width="150" height="30" rx="4" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <rect x="400" y="510" width="150" height="30" rx="4" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <!-- Signature squiggles -->
+  <path d="M248 528 Q265 520 278 528 Q291 536 304 528" fill="none" stroke="#3b82f6" stroke-width="1.5"/>
+  <rect x="414" y="523" width="100" height="1" fill="#334155"/>
+
+  <!-- Approval panel -->
+  <rect x="672" y="118" width="272" height="484" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <rect x="688" y="134" width="120" height="10" rx="3" fill="#e2e8f0"/>
+  <rect x="688" y="150" width="90" height="6" rx="2" fill="#475569"/>
+
+  <!-- Status badge -->
+  <rect x="688" y="172" width="240" height="32" rx="6" fill="#1e3a5f"/>
+  <rect x="700" y="182" width="8" height="12" rx="2" fill="#60a5fa"/>
+  <rect x="714" y="184" width="120" height="8" rx="2" fill="#60a5fa"/>
+
+  <!-- Approver list -->
+  <rect x="688" y="216" width="80" height="6" rx="2" fill="#64748b"/>
+
+  <!-- Approver 1 — approved -->
+  <rect x="688" y="232" width="240" height="48" rx="6" fill="#0f172a" stroke="#052e16" stroke-width="1"/>
+  <circle cx="710" cy="256" r="14" fill="#065f46"/>
+  <rect x="730" y="248" width="80" height="8" rx="2" fill="#e2e8f0"/>
+  <rect x="730" y="260" width="55" height="6" rx="2" fill="#475569"/>
+  <rect x="876" y="248" width="36" height="16" rx="8" fill="#065f46"/>
+  <rect x="882" y="252" width="24" height="8" rx="2" fill="#4ade80"/>
+
+  <!-- Approver 2 — pending -->
+  <rect x="688" y="288" width="240" height="48" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <circle cx="710" cy="312" r="14" fill="#1d4ed8"/>
+  <rect x="730" y="304" width="90" height="8" rx="2" fill="#e2e8f0"/>
+  <rect x="730" y="316" width="60" height="6" rx="2" fill="#475569"/>
+  <rect x="876" y="304" width="36" height="16" rx="8" fill="#334155"/>
+  <rect x="882" y="308" width="24" height="8" rx="2" fill="#94a3b8"/>
+
+  <!-- Approver 3 — pending -->
+  <rect x="688" y="344" width="240" height="48" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <circle cx="710" cy="368" r="14" fill="#7c3aed"/>
+  <rect x="730" y="360" width="75" height="8" rx="2" fill="#e2e8f0"/>
+  <rect x="730" y="372" width="50" height="6" rx="2" fill="#475569"/>
+  <rect x="876" y="360" width="36" height="16" rx="8" fill="#334155"/>
+  <rect x="882" y="364" width="24" height="8" rx="2" fill="#94a3b8"/>
+
+  <!-- Audit log -->
+  <rect x="688" y="408" width="80" height="6" rx="2" fill="#64748b"/>
+  <rect x="688" y="424" width="240" height="100" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <rect x="700" y="436" width="60" height="6" rx="2" fill="#4ade80"/>
+  <rect x="770" y="436" width="100" height="6" rx="2" fill="#64748b"/>
+  <rect x="700" y="452" width="55" height="6" rx="2" fill="#60a5fa"/>
+  <rect x="765" y="452" width="110" height="6" rx="2" fill="#64748b"/>
+  <rect x="700" y="468" width="70" height="6" rx="2" fill="#94a3b8"/>
+  <rect x="780" y="468" width="100" height="6" rx="2" fill="#64748b"/>
+  <rect x="700" y="484" width="65" height="6" rx="2" fill="#94a3b8"/>
+  <rect x="775" y="484" width="95" height="6" rx="2" fill="#64748b"/>
+  <rect x="700" y="500" width="80" height="6" rx="2" fill="#94a3b8"/>
+  <rect x="790" y="500" width="85" height="6" rx="2" fill="#64748b"/>
+
+  <!-- Send button -->
+  <rect x="688" y="540" width="240" height="36" rx="8" fill="#1d4ed8"/>
+  <rect x="740" y="552" width="136" height="12" rx="3" fill="#bfdbfe"/>
+  <!-- Sent indicator -->
+  <rect x="688" y="585" width="240" height="1" fill="#334155"/>
+  <rect x="688" y="594" width="150" height="6" rx="2" fill="#475569"/>
+</svg>
