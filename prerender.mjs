@@ -298,23 +298,30 @@ ErrorDocument 503 /503.html
   # Legacy removed languages redirect to the closest supported Arabic path.
   RewriteRule ^(de|fr|zh|ku|ja)/?$ /ar [R=301,L,NE]
   RewriteRule ^(de|fr|zh|ku|ja)/(sectors(?:/${pagePattern})?)$ /ar/$2 [R=301,L,NE]
+  RewriteRule ^(de|fr|zh|ku|ja)/(blog(?:/${pagePattern})?)$ /ar/$2 [R=301,L,NE]
   RewriteRule ^(de|fr|zh|ku|ja)/(${pagePattern})$ /ar/$2 [R=301,L,NE]
   RewriteRule ^lang/(de|fr|zh|ku|ja)/?$ /ar [R=301,L,NE]
   RewriteRule ^lang/(de|fr|zh|ku|ja)/(sectors(?:/${pagePattern})?)$ /ar/$2 [R=301,L,NE]
+  RewriteRule ^lang/(de|fr|zh|ku|ja)/(blog(?:/${pagePattern})?)$ /ar/$2 [R=301,L,NE]
   RewriteRule ^lang/(de|fr|zh|ku|ja)/(${pagePattern})$ /ar/$2 [R=301,L,NE]
 
   # Normalize legacy /lang paths for supported languages.
   RewriteRule ^lang/(${languagePattern})/?$ /$1 [R=301,L,NE]
   RewriteRule ^lang/(${languagePattern})/(sectors(?:/${pagePattern})?)$ /$1/$2 [R=301,L,NE]
+  RewriteRule ^lang/(${languagePattern})/(blog(?:/${pagePattern})?)$ /$1/$2 [R=301,L,NE]
   RewriteRule ^lang/(${languagePattern})/(${pagePattern})$ /$1/$2 [R=301,L,NE]
 
   # Collapse trailing slashes on canonical localized paths.
-  RewriteCond %{THE_REQUEST} \\s/+((?:${languagePattern})(?:/(?:sectors(?:/${pagePattern})?|${pagePattern}))?)/+[\\s?] [NC]
+  RewriteCond %{THE_REQUEST} \\s/+((?:${languagePattern})(?:/(?:sectors(?:/${pagePattern})?|blog(?:/${pagePattern})?|${pagePattern}))?)/+[\\s?] [NC]
   RewriteRule ^ https://diwansuite.com/%1 [R=301,L,NE]
 
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule ^(${languagePattern})/(sectors(?:/${pagePattern})?)$ /${publicLangSegment}/$1/$2/index.html [L]
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(${languagePattern})/(blog(?:/${pagePattern})?)$ /${publicLangSegment}/$1/$2/index.html [L]
 
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
