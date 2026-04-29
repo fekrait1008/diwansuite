@@ -46,29 +46,62 @@ Verify ZIP contains these files at ROOT level (not inside a `dist/` folder):
     └── ur/
 ```
 
+## CRITICAL: Preserve api/ Directory
+
+The `api/` directory contains server-side PHP files that are NOT in version control:
+- `api/contact.php` - Contact form handler
+- `api/config.php` - Server configuration
+- `api/health.php` - Health check endpoint
+- `api/lib/mail.php` - Mail library
+
+**WARNING:** The build tarball does NOT include the api/ directory. You MUST preserve the existing api/ directory on the production server.
+
 ## cPanel Upload Steps
 
 1. **Backup existing public_html**
-   ```
-   Create a backup before making changes
+   ```bash
+   # CRITICAL: Before uploading, backup the api/ directory
+   cp -r public_html/api /backup/api-backup-$(date +%Y%m%d)
    ```
 
-2. **Upload ZIP to public_html**
+2. **Upload tarball to public_html**
    - File Manager → public_html
-   - Upload → Select diwansuite-build-production.zip
+   - Upload → Select diwansuite-build-production.tar.gz
 
-3. **Extract ZIP**
-   - Right-click ZIP → Extract
-   - Extract TO: public_html (not a subfolder)
+3. **Extract tarball (EXCLUDING api/)**
+   ```bash
+   # Extract everything EXCEPT any api/ that might exist in tarball
+   tar -xzvf diwansuite-build-production.tar.gz --exclude='api'
+   ```
+   
+   Or in cPanel File Manager:
+   - Right-click tarball → Extract
+   - After extraction, verify api/ directory is intact
 
-4. **Verify structure**
+4. **Restore api/ if overwritten**
+   ```bash
+   # If api/ was overwritten, restore from backup
+   cp -r /backup/api-backup-*/. public_html/api/
+   ```
+
+5. **Verify structure**
    ```
    public_html/index.html (NOT public_html/dist/index.html)
    public_html/.htaccess
+   public_html/api/contact.php (PRESERVED from production)
+   public_html/api/config.php (PRESERVED from production)
+   public_html/api/health.php (PRESERVED from production)
+   public_html/api/lib/mail.php (PRESERVED from production)
    public_html/lang/ar/blog/how-to-track-board-decisions/index.html
    ```
 
-5. **Delete ZIP file after extraction**
+6. **Delete tarball file after extraction**
+
+7. **Verify API endpoint still works**
+   ```bash
+   curl https://diwansuite.com/api/health.php
+   # Expected: {"ok":true,"runtime":"php",...}
+   ```
 
 ## Post-Deployment Verification
 
