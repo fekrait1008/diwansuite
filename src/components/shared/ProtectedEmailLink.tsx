@@ -31,12 +31,13 @@ type ProtectedEmailLinkProps = {
 }
 
 function escapeHtml(value: string): string {
+  // Use split/join instead of replaceAll for Firefox compatibility
   return value
-    .replaceAll('&', '&amp;')
-    .replaceAll('<', '&lt;')
-    .replaceAll('>', '&gt;')
-    .replaceAll('"', '&quot;')
-    .replaceAll("'", '&#039;')
+    .split('&').join('&amp;')
+    .split('<').join('&lt;')
+    .split('>').join('&gt;')
+    .split('"').join('&quot;')
+    .split("'").join('&#039;')
 }
 
 export function ProtectedEmailLink({
