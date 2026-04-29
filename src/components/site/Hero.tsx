@@ -49,9 +49,9 @@ export function SiteHero() {
               className="mb-4 font-extrabold tracking-tight text-foreground"
               style={{
                 fontFamily: font,
-                fontSize: 'clamp(1.75rem, 3.6vw, 3rem)',
-                lineHeight: '1.14',
-                letterSpacing: '-0.02em',
+                fontSize: 'clamp(1.5rem, 3vw, 2.5rem)',
+                lineHeight: '1.2',
+                letterSpacing: '-0.015em',
               }}
             >
               {t.hero.h1}
