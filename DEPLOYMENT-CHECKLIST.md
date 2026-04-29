@@ -48,13 +48,23 @@ Verify ZIP contains these files at ROOT level (not inside a `dist/` folder):
 
 ## CRITICAL: Preserve api/ Directory
 
-The `api/` directory contains server-side PHP files that are NOT in version control:
-- `api/contact.php` - Contact form handler
-- `api/config.php` - Server configuration
-- `api/health.php` - Health check endpoint
-- `api/lib/mail.php` - Mail library
+The `api/` directory contains server-side PHP files that are NOT in version control.
+
+### Required API Endpoints (used by frontend):
+
+| Endpoint | Purpose | Component |
+|----------|---------|-----------|
+| `/api/contact.php` | Contact form handler | CTA.tsx |
+| `/api/lead-otp-send` | OTP sending for leads | EnterpriseLeadForm.tsx |
+| `/api/lead-otp-verify` | OTP verification | EnterpriseLeadForm.tsx |
+| `/api/lead-submit` | Lead form submission | EnterpriseLeadForm.tsx |
+| `/api/health.php` | Health check endpoint | Monitoring |
+| `/api/config.php` | Server configuration | Internal |
+| `/api/lib/mail.php` | Mail library | Internal |
 
 **WARNING:** The build tarball does NOT include the api/ directory. You MUST preserve the existing api/ directory on the production server.
+
+**NOTE:** These PHP files are maintained separately from the frontend codebase and must NOT be deleted during deployment.
 
 ## cPanel Upload Steps
 
