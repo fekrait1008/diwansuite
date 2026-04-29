@@ -46,68 +46,65 @@ Verify ZIP contains these files at ROOT level (not inside a `dist/` folder):
     └── ur/
 ```
 
-## CRITICAL: Preserve api/ Directory
+## API Directory - NOW INCLUDED IN TARBALL
 
-The `api/` directory contains server-side PHP files that are NOT in version control.
+The merged production tarball now includes the complete `api/` directory:
 
-### Required API Endpoints (used by frontend):
+```
+api/
+├── config.php       (server configuration)
+├── contact.php      (contact form handler - 923 lines)
+├── health.php       (health check endpoint)
+└── lib/
+    └── contact-security.php (security utilities)
+```
+
+### API Endpoints (used by frontend):
 
 | Endpoint | Purpose | Component |
 |----------|---------|-----------|
 | `/api/contact.php` | Contact form handler | CTA.tsx |
-| `/api/lead-otp-send` | OTP sending for leads | EnterpriseLeadForm.tsx |
-| `/api/lead-otp-verify` | OTP verification | EnterpriseLeadForm.tsx |
-| `/api/lead-submit` | Lead form submission | EnterpriseLeadForm.tsx |
 | `/api/health.php` | Health check endpoint | Monitoring |
 | `/api/config.php` | Server configuration | Internal |
-| `/api/lib/mail.php` | Mail library | Internal |
 
-**WARNING:** The build tarball does NOT include the api/ directory. You MUST preserve the existing api/ directory on the production server.
-
-**NOTE:** These PHP files are maintained separately from the frontend codebase and must NOT be deleted during deployment.
+**NOTE:** The tarball now includes api/ files. Extraction will deploy both frontend AND backend together.
 
 ## cPanel Upload Steps
 
 1. **Backup existing public_html**
    ```bash
-   # CRITICAL: Before uploading, backup the api/ directory
-   cp -r public_html/api /backup/api-backup-$(date +%Y%m%d)
+   # Backup before deployment
+   cp -r public_html /backup/public_html-backup-$(date +%Y%m%d)
    ```
 
 2. **Upload tarball to public_html**
-   - File Manager → public_html
-   - Upload → Select diwansuite-build-production.tar.gz
+   - File Manager -> public_html
+   - Upload -> Select diwansuite-build-production.tar.gz
 
-3. **Extract tarball (EXCLUDING api/)**
+3. **Extract tarball**
    ```bash
-   # Extract everything EXCEPT any api/ that might exist in tarball
-   tar -xzvf diwansuite-build-production.tar.gz --exclude='api'
+   cd public_html
+   tar -xzvf diwansuite-build-production.tar.gz
    ```
    
    Or in cPanel File Manager:
-   - Right-click tarball → Extract
-   - After extraction, verify api/ directory is intact
+   - Right-click tarball -> Extract
+   - Extract to current directory (public_html)
 
-4. **Restore api/ if overwritten**
-   ```bash
-   # If api/ was overwritten, restore from backup
-   cp -r /backup/api-backup-*/. public_html/api/
+4. **Verify structure**
    ```
-
-5. **Verify structure**
-   ```
-   public_html/index.html (NOT public_html/dist/index.html)
+   public_html/index.html
    public_html/.htaccess
-   public_html/api/contact.php (PRESERVED from production)
-   public_html/api/config.php (PRESERVED from production)
-   public_html/api/health.php (PRESERVED from production)
-   public_html/api/lib/mail.php (PRESERVED from production)
+   public_html/api/contact.php
+   public_html/api/config.php
+   public_html/api/health.php
+   public_html/api/lib/contact-security.php
    public_html/lang/ar/blog/how-to-track-board-decisions/index.html
    ```
 
-6. **Delete tarball file after extraction**
+5. **Delete tarball file after extraction**
 
-7. **Verify API endpoint still works**
+6. **Verify API endpoint works**
    ```bash
    curl https://diwansuite.com/api/health.php
    # Expected: {"ok":true,"runtime":"php",...}
