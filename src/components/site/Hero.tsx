@@ -35,9 +35,10 @@ export function SiteHero() {
       </div>
 
       <div className="mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8">
-        <div className="grid gap-8 lg:grid-cols-2 lg:items-center lg:gap-10">
-          <div className={`max-w-2xl ${isRTL ? 'lg:order-2 lg:justify-self-end lg:text-right' : 'lg:text-left'}`}>
-            <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-chart-1/25 bg-chart-1/10 px-4 py-1.5">
+        <div className="grid gap-8 lg:grid-cols-2 lg:items-center lg:gap-12">
+          {/* Text Column - appears first on mobile, visually on RIGHT for RTL desktop, LEFT for LTR desktop */}
+          <div className={`max-w-2xl ${isRTL ? 'lg:order-1 lg:text-right' : 'lg:text-left'}`}>
+            <div className={`mb-4 inline-flex items-center gap-2 rounded-full border border-chart-1/25 bg-chart-1/10 px-4 py-1.5`}>
               <div className="h-1.5 w-1.5 animate-pulse rounded-full bg-chart-1" />
               <span className="text-sm font-bold text-chart-1" style={{ fontFamily: font }}>
                 {t.hero.badge}
@@ -46,12 +47,12 @@ export function SiteHero() {
 
             <h1
               id="hero-heading"
-              className="mb-4 font-extrabold tracking-tight text-foreground"
+              className="mb-4 font-extrabold tracking-tight text-foreground text-balance"
               style={{
                 fontFamily: font,
-                fontSize: 'clamp(1.5rem, 3vw, 2.5rem)',
-                lineHeight: '1.2',
-                letterSpacing: '-0.015em',
+                fontSize: 'clamp(1.375rem, 2.5vw, 2.25rem)',
+                lineHeight: '1.25',
+                letterSpacing: '-0.01em',
               }}
             >
               {t.hero.h1}
@@ -105,7 +106,8 @@ export function SiteHero() {
             </div>
           </div>
 
-          <figure className={`${isRTL ? 'lg:order-1' : ''}`} aria-label={heroVisualAlt[lang] ?? heroVisualAlt.ar}>
+          {/* Image Column - appears second on mobile, visually on LEFT for RTL desktop, RIGHT for LTR desktop */}
+          <figure className={`${isRTL ? 'lg:order-2' : ''}`} aria-label={heroVisualAlt[lang] ?? heroVisualAlt.ar}>
             <div className="relative overflow-hidden rounded-[2rem] border border-border bg-card p-3 shadow-2xl sm:p-4 lg:p-5">
               <div className="absolute inset-x-8 top-0 h-1 rounded-b-full bg-gradient-to-r from-chart-1 via-chart-2 to-chart-1" />
               <div className="mb-3 flex items-center justify-between gap-3 rounded-2xl border border-border bg-secondary/60 px-4 py-3">
