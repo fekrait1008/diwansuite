@@ -58,7 +58,7 @@ export default defineConfig(({ mode }) => {
       manifest: true,
       ssrManifest: true,
       cssMinify: 'lightningcss',
-      sourcemap: 'hidden',
+      sourcemap: false,
       modulePreload: {
         polyfill: false,
       },
