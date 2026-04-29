@@ -24,15 +24,8 @@ export function readInitialPageData(): InitialPageData {
 
     return JSON.parse(raw) as InitialPageData
   } catch (error) {
-    // Log error for debugging but don't crash - provide minimal fallback
+    // Log error for debugging - re-throw to trigger error boundary
     console.error('[v0] Failed to read initial page data:', error)
-    
-    // Attempt to extract data from URL as emergency fallback
-    const path = window.location.pathname
-    const langMatch = path.match(/^\/(ar|en|hi|ur)/)
-    const lang = langMatch ? langMatch[1] as 'ar' | 'en' | 'hi' | 'ur' : 'ar'
-    
-    // Re-throw to trigger error boundary - the app needs proper data
     throw error
   }
 }
