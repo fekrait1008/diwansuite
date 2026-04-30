@@ -354,8 +354,13 @@ function validateSchema(schemas) {
   
   // Only count @id declarations (nodes with BOTH @id AND @type)
   // References (objects with only @id) are NOT duplicates
+  const visited = new WeakSet()
   function collectDeclaredIds(node) {
     if (!node || typeof node !== 'object') return
+    // Prevent double-counting from circular/repeated traversal
+    if (visited.has(node)) return
+    visited.add(node)
+    
     // Only count as declaration if it has both @id AND @type
     if (node['@id'] && node['@type']) {
       if (declaredIds.has(node['@id'])) {
@@ -363,13 +368,19 @@ function validateSchema(schemas) {
       }
       declaredIds.add(node['@id'])
     }
-    if (node['@graph']) {
+    
+    // Process @graph array if present (and skip re-processing via Object.entries)
+    if (node['@graph'] && Array.isArray(node['@graph'])) {
       node['@graph'].forEach(collectDeclaredIds)
+      return // @graph nodes are the top-level entities, don't re-traverse
     }
-    for (const value of Object.values(node)) {
+    
+    // Process nested properties (skip metadata keys)
+    for (const [key, value] of Object.entries(node)) {
+      if (key === '@context' || key === '@id' || key === '@type') continue
       if (Array.isArray(value)) {
         value.forEach(collectDeclaredIds)
-      } else if (typeof value === 'object') {
+      } else if (typeof value === 'object' && value !== null) {
         collectDeclaredIds(value)
       }
     }
