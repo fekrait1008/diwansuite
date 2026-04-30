@@ -6,11 +6,12 @@
   "scripts": {
     "dev": "node node_modules/vite/bin/vite.js --port 4173 --strictPort",
     "build:assets": "node scripts/optimize-assets.mjs",
-    "build": "npm run build:assets && node node_modules/typescript/lib/tsc.js -b && node node_modules/vite/bin/vite.js build && node node_modules/vite/bin/vite.js build --ssr src/entry-server.tsx --outDir dist/server && node prerender.mjs && node scripts/check-budgets.mjs && node scripts/check-seo-aeo.mjs",
+    "build": "npm run build:assets && node node_modules/typescript/lib/tsc.js -b && node node_modules/vite/bin/vite.js build && node node_modules/vite/bin/vite.js build --ssr src/entry-server.tsx --outDir dist/server && node prerender.mjs && node scripts/check-budgets.mjs && node scripts/check-seo-aeo.mjs && node scripts/validate-schema.mjs",
     "typecheck": "node node_modules/typescript/lib/tsc.js --noEmit",
     "preview": "node node_modules/vite/bin/vite.js preview",
     "check:budgets": "node scripts/check-budgets.mjs",
     "check:seo-aeo": "node scripts/check-seo-aeo.mjs",
+    "check:schema": "node scripts/validate-schema.mjs",
     "check:live-redirects": "node scripts/check-live-redirects.mjs",
     "check:text": "node scripts/check-text-integrity.mjs",
     "check:text:dist": "node scripts/check-text-integrity.mjs --include-dist",

@@ -99,7 +99,7 @@ const pageTypeDescriptionTemplates: Partial<Record<LangCode, Record<string, (tit
     support: (title) => `${title} Diwan Suite में प्रशिक्षण, कार्यान्वयन, सहायता और परिचालन सक्षमकरण को सऊदी संस्थाओं तथा मध्यम से बड़े संगठनों के लिए स्पष्ट करता है।`,
     solution: (title) => `${title} Diwan Suite में बैठकों, समितियों, कार्यवृत्त, निर्णयों और गवर्नेंस फॉलो-अप को सऊदी संस्थाओं के लिए एक संरचित वर्कफ़्लो में व्यवस्थित करता है।`,
     sector: (title) => `${title} दिखाता है कि Diwan Suite सऊदी संस्थाओं में बोर्ड, समितियाँ, निर्णय और अनुपालन रिकॉर्ड को एक ही प्लेटफ़ॉर्म में कैसे संगठित करता है।`,
-    industry: (title) => `${title} बताता है कि Diwan Suite नियामित संस्थाओं में गवर्नेंस, बैठक रिकॉर्ड, निर्णय और कार्यान्वयन ट्रैकिंग को कैसे जोड़ता है।`,
+    industry: (title) => `${title} बताता है कि Diwan Suite नियामित संस्थाओं में गवर्नेंस, ���ैठक रिकॉर्ड, निर्णय और कार्यान्वयन ट्रैकिंग को कैसे जोड़ता है।`,
     platform: (title) => `${title} Diwan Suite में गवर्नेंस ऑटोमेशन, रिपोर्टिंग, निर्णय ट्रैकिंग और सुरक्षित कार्य निष्पादन को स्थानीय होस्टिंग के साथ समर्थन देता है।`,
     trust: (title) => `${title} Diwan Suite में सुरक्षा, अनुपालन, ऑडिट ट्रेल और गवर्नेंस नियंत्रण को सऊदी संस्थागत आवश्यकताओं के अनुसार स्पष्ट करता है।`,
     core: (title) => `${title} बताता है कि Diwan Suite सऊदी संगठनों के लिए बोर्ड गवर्नेंस, बैठक संचालन और निर्णय फॉलो-अप को कैसे समर्थन देता है।`
@@ -296,7 +296,7 @@ const seoDescriptionOverrides: Partial<Record<LangCode, Partial<Record<StaticPag
   },
   hi: {
     home: 'Diwan Suite बोर्ड और समिति बैठकों, मिनट्स, निर्णयों, निष्पादन अनुवर्ती और अनुपालन को एक AI-सहायित गवर्नेंस प्लेटफ़ॉर्म में संगठित करता है।',
-    blog: 'बोर्ड गवर्नेंस, समिति प्रबंधन, AI मीटिंग मिनट्स, निर्णय ट्रैकिंग और संस्थागत अनुपालन पर व्यावहारिक लेख — सऊदी और खाड़ी देशों के संगठनों के लिए।',
+    blog: 'बोर्ड गवर्नेंस, समिति प्रबंधन, AI मीटिंग मिनट्स, निर्णय ट्रैकिंग और संस्थागत अनुपालन पर व्यावहारिक लेख — सऊदी और खाड़ी देशों के संगठ��ों के लिए।',
     about: 'जानें कि Diwan Suite सऊदी संगठनों में बोर्ड और समिति बैठकों, मिनट्स, निर्णयों और गवर्नेंस अनुवर्ती को कैसे समर्थन देता है।',
     boardManagementSystem: 'बोर्ड बैठकों, मिनट्स, अनुमोदन, निर्णयों और निष्पादन अनुवर्ती को एक audit-ready governance workflow में प्रबंधित करें।',
     committeeManagementSoftware: 'समिति बैठकों, सिफारिशों, मिनट्स, सदस्यताओं और निष्पादन अनुवर्ती को एक structured governance workflow में प्रबंधित करें।',
@@ -411,8 +411,11 @@ function buildFaqSchemaItems(items: Array<{ q: string; a: string }>, lang: LangC
     .map((item) => ({
       '@type': 'Question',
       name: item.q,
-      inLanguage: getLanguageTag(lang),
-      acceptedAnswer: { '@type': 'Answer', text: item.a, inLanguage: getLanguageTag(lang) },
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.a,
+        inLanguage: getLanguageTag(lang),
+      },
     }))
 }
 
@@ -471,7 +474,6 @@ function buildHomeDecisionJourneySchema(lang: LangCode, canonical: string) {
     name: listName,
     itemListOrder: 'https://schema.org/ItemListOrderAscending',
     numberOfItems: items.length,
-    inLanguage: getLanguageTag(lang),
     itemListElement: items.map((item, index) => ({
       '@type': 'ListItem',
       position: index + 1,
@@ -485,18 +487,28 @@ function buildServiceSchema(lang: LangCode, page: StaticPage, title: string, des
   if (page === 'home' || category === 'seo' || category === 'legal' || page === 'about' || page === 'privacy' || page === 'terms' || page === 'blog') return null
 
   const audiences = getAudienceList(page, lang)
-  return {
+  const serviceSchema: Record<string, unknown> = {
     '@id': `${canonical}#service`,
     '@type': 'Service',
     name: title,
     description,
     serviceType: title,
     provider: { '@id': organizationId },
-    areaServed: SITE_CONFIG.areaServed,
-    audience: audiences.map((audience) => ({ '@type': 'Audience', audienceType: audience })),
-    inLanguage: getLanguageTag(lang),
-    url: canonical,
+    areaServed: SITE_CONFIG.areaServed.map((code) => ({
+      '@type': 'Country',
+      name: code,
+    })),
+    availableLanguage: SUPPORTED_LANGS.map((code) => getLanguageTag(code)),
   }
+
+  if (audiences.length > 0) {
+    serviceSchema.audience = audiences.map((audience) => ({
+      '@type': 'Audience',
+      audienceType: audience,
+    }))
+  }
+
+  return serviceSchema
 }
 
 const softwareAppNames: Partial<Record<LangCode, string>> = {
@@ -506,21 +518,23 @@ const softwareAppNames: Partial<Record<LangCode, string>> = {
   ur: 'Diwan Suite — بورڈ گورننس اور فیصلہ پلیٹ فارم',
 }
 
-function buildSoftwareApplicationSchema(lang: LangCode, organizationId: string): object {
+function buildSoftwareApplicationSchema(lang: LangCode, canonical: string, organizationId: string): object {
   return {
+    '@id': `${canonical}#software`,
     '@type': 'SoftwareApplication',
     name: softwareAppNames[lang] ?? softwareAppNames.en,
     applicationCategory: 'BusinessApplication',
     operatingSystem: 'Web',
     offers: {
       '@type': 'Offer',
+      price: '0',
       priceCurrency: 'SAR',
-      price: '750',
-      availability: 'https://schema.org/InStock',
+      priceValidUntil: new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10),
+      availability: 'https://schema.org/OnlineOnly',
+      url: canonical,
     },
     provider: { '@id': organizationId },
-    inLanguage: SUPPORTED_LANGS.map((code) => getLanguageTag(code)),
-    url: buildAbsoluteUrl(buildLocalizedPath(lang, 'home')),
+    url: canonical,
   }
 }
 
@@ -616,7 +630,7 @@ function buildStructuredData(lang: LangCode, page: StaticPage, title: string, de
   ]
 
   if (page === 'home') {
-    graph.push(buildSoftwareApplicationSchema(lang, organizationId))
+    graph.push(buildSoftwareApplicationSchema(lang, canonical, organizationId))
   }
 
   if (serviceSchema) {
