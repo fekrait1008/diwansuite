@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://diwansuite.com/ar#organization",
+      "@type": "Organization",
+      "name": "Diwan Suite",
+      "alternateName": "ديوان سويت",
+      "legalName": "Fekra Software Information Technology Establishment",
+      "url": "https://diwansuite.com/ar",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://diwansuite.com/logo-diwan.svg"
+      },
+      "telephone": "+966560000934",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "sales",
+          "telephone": "+966560000934",
+          "url": "https://diwansuite.com/ar#booking-cta",
+          "availableLanguage": [
+            "ar-SA",
+            "en-US",
+            "hi-IN",
+            "ur-PK"
+          ]
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Riyadh",
+        "addressRegion": "Riyadh",
+        "addressCountry": "SA"
+      },
+      "areaServed": [
+        "SA",
+        "AE",
+        "KW",
+        "QA",
+        "BH",
+        "OM"
+      ]
+    },
+    {
+      "@id": "https://diwansuite.com/ar#website",
+      "@type": "WebSite",
+      "url": "https://diwansuite.com/ar",
+      "name": "Diwan Suite",
+      "publisher": {
+        "@id": "https://diwansuite.com/ar#organization"
+      },
+      "inLanguage": [
+        "ar-SA",
+        "en-US",
+        "hi-IN",
+        "ur-PK"
+      ]
+    },
+    {
+      "@id": "https://diwansuite.com/ar/about#webpage",
+      "@type": "WebPage",
+      "url": "https://diwansuite.com/ar/about",
+      "name": "عن DiwanSuite | منصة حوكمة المجالس والقرارات",
+      "description": "تعرّف على ديوان سويت، منصة سعودية لإدارة اجتماعات المجالس واللجان ومحاضرها وقراراتها ومتابعة تنفيذها مع استضافة محلية ودعم تنفيذي.",
+      "inLanguage": "ar-SA",
+      "dateModified": "2026-03-10",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://diwansuite.com/ar#website"
+      },
+      "breadcrumb": {
+        "@id": "https://diwansuite.com/ar/about#breadcrumb"
+      }
+    },
+    {
+      "@id": "https://diwansuite.com/ar/about#breadcrumb",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "الرئيسية",
+          "item": "https://diwansuite.com/ar"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "عن DiwanSuite",
+          "item": "https://diwansuite.com/ar/about"
+        }
+      ]
+    }
+  ]
+}

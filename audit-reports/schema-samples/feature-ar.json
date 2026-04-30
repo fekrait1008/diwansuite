@@ -1,0 +1,255 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://diwansuite.com/ar#organization",
+      "@type": "Organization",
+      "name": "Diwan Suite",
+      "alternateName": "ديوان سويت",
+      "legalName": "Fekra Software Information Technology Establishment",
+      "url": "https://diwansuite.com/ar",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://diwansuite.com/logo-diwan.svg"
+      },
+      "telephone": "+966560000934",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "sales",
+          "telephone": "+966560000934",
+          "url": "https://diwansuite.com/ar#booking-cta",
+          "availableLanguage": [
+            "ar-SA",
+            "en-US",
+            "hi-IN",
+            "ur-PK"
+          ]
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Riyadh",
+        "addressRegion": "Riyadh",
+        "addressCountry": "SA"
+      },
+      "areaServed": [
+        "SA",
+        "AE",
+        "KW",
+        "QA",
+        "BH",
+        "OM"
+      ]
+    },
+    {
+      "@id": "https://diwansuite.com/ar#website",
+      "@type": "WebSite",
+      "url": "https://diwansuite.com/ar",
+      "name": "Diwan Suite",
+      "publisher": {
+        "@id": "https://diwansuite.com/ar#organization"
+      },
+      "inLanguage": [
+        "ar-SA",
+        "en-US",
+        "hi-IN",
+        "ur-PK"
+      ]
+    },
+    {
+      "@id": "https://diwansuite.com/ar/board-management-system#webpage",
+      "@type": "WebPage",
+      "url": "https://diwansuite.com/ar/board-management-system",
+      "name": "نظام إدارة اجتماعات مجالس الإدارة | ديوان سويت",
+      "description": "نظام لإدارة اجتماعات مجالس الإدارة والمحاضر والاعتماد والقرارات والتنفيذ، مع سجل تدقيق وتقارير حوكمة للإدارة العليا.",
+      "inLanguage": "ar-SA",
+      "dateModified": "2026-03-10",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://diwansuite.com/ar#website"
+      },
+      "breadcrumb": {
+        "@id": "https://diwansuite.com/ar/board-management-system#breadcrumb"
+      },
+      "audience": [
+        {
+          "@type": "Audience",
+          "audienceType": "مجالس الإدارة وأمانات المجالس"
+        },
+        {
+          "@type": "Audience",
+          "audienceType": "اللجان المنبثقة والإدارة التنفيذية"
+        },
+        {
+          "@type": "Audience",
+          "audienceType": "الالتزام والمراجعة الداخلية والحوكمة"
+        }
+      ],
+      "about": {
+        "@id": "https://diwansuite.com/ar/board-management-system#service"
+      },
+      "mainEntity": {
+        "@id": "https://diwansuite.com/ar/board-management-system#faq"
+      }
+    },
+    {
+      "@id": "https://diwansuite.com/ar/board-management-system#breadcrumb",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "الرئيسية",
+          "item": "https://diwansuite.com/ar"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "نظام إدارة مجالس الإدارة",
+          "item": "https://diwansuite.com/ar/board-management-system"
+        }
+      ]
+    },
+    {
+      "@id": "https://diwansuite.com/ar/board-management-system#service",
+      "@type": "Service",
+      "name": "نظام إدارة اجتماعات مجالس الإدارة | ديوان سويت",
+      "description": "نظام لإدارة اجتماعات مجالس الإدارة والمحاضر والاعتماد والقرارات والتنفيذ، مع سجل تدقيق وتقارير حوكمة للإدارة العليا.",
+      "serviceType": "نظام إدارة اجتماعات مجالس الإدارة | ديوان سويت",
+      "provider": {
+        "@id": "https://diwansuite.com/ar#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "SA"
+        },
+        {
+          "@type": "Country",
+          "name": "AE"
+        },
+        {
+          "@type": "Country",
+          "name": "KW"
+        },
+        {
+          "@type": "Country",
+          "name": "QA"
+        },
+        {
+          "@type": "Country",
+          "name": "BH"
+        },
+        {
+          "@type": "Country",
+          "name": "OM"
+        }
+      ],
+      "availableLanguage": [
+        "ar-SA",
+        "en-US",
+        "hi-IN",
+        "ur-PK"
+      ],
+      "audience": [
+        {
+          "@type": "Audience",
+          "audienceType": "مجالس الإدارة وأمانات المجالس"
+        },
+        {
+          "@type": "Audience",
+          "audienceType": "اللجان المنبثقة والإدارة التنفيذية"
+        },
+        {
+          "@type": "Audience",
+          "audienceType": "الالتزام والمراجعة الداخلية والحوكمة"
+        }
+      ]
+    },
+    {
+      "@id": "https://diwansuite.com/ar/board-management-system#workflow",
+      "@type": "ItemList",
+      "name": "كيف يعمل",
+      "itemListOrder": "https://schema.org/ItemListOrderAscending",
+      "numberOfItems": 3,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "تشكيل المجلس وضبط العضويات والأدوار"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "تنظيم الاجتماع وجدول الأعمال والحضور والنصاب"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "اعتماد المحاضر وتحويل القرارات إلى مهام وتقارير"
+        }
+      ]
+    },
+    {
+      "@id": "https://diwansuite.com/ar/board-management-system#faq",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "هل يدعم النظام تشكيل المجلس والعضويات والأدوار؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "نعم. يدعم ضبط هيكل المجلس والعضويات وفترات السريان والأدوار والصلاحيات ضمن سجل موحد.",
+            "inLanguage": "ar-SA"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "هل يدعم إعداد محاضر مجلس الإدارة واعتمادها؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "نعم. يدعم إعداد المحاضر ومراجعتها واعتمادها والتوقيع الإلكتروني وربطها بالقرارات والمرفقات.",
+            "inLanguage": "ar-SA"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "كيف تتم متابعة قرارات المجلس؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "تُحوَّل القرارات إلى مهام أو التزامات تنفيذية مع مسؤول واضح وموعد استحقاق وحالة تنفيذ وتنبيهات عند التأخير.",
+            "inLanguage": "ar-SA"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "هل توجد قدرات ذكاء اصطناعي داخل هذا المسار؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "نعم. يدعم الذكاء الاصطناعي التلخيص، واستخراج القرارات، واقتراح مهام تنفيذية، وتحسين وضوح صياغة القرار، مع اعتماد نهائي بشري.",
+            "inLanguage": "ar-SA"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "هل النظام مناسب للبيئات الرقابية والجهات الحساسة؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "نعم. يدعم سجل التدقيق، والصلاحيات الدقيقة، والطابع الزمني، وحماية الوثائق والقرارات الحساسة.",
+            "inLanguage": "ar-SA"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "هل يدعم الاجتماعات الحضورية والافتراضية والهجينة؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "نعم. يدعم النماذج التشغيلية الثلاثة مع حضور ونصاب ومحاضر مرتبطة بالقرار والمتابعة.",
+            "inLanguage": "ar-SA"
+          }
+        }
+      ]
+    }
+  ]
+}
