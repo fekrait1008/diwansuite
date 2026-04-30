@@ -27,7 +27,21 @@
 
 ## External Validation Evidence
 
-External validation was performed using browser automation on validator.schema.org:
+### Scaled Validation (46 URLs across all page types)
+
+Automated validation was performed across 46 representative URLs covering all page categories:
+
+| Category | URLs Tested | Passed | Failed | Pass Rate |
+|----------|-------------|--------|--------|-----------|
+| About | 4 | 4 | 0 | 100% |
+| Features | 16 | 16 | 0 | 100% |
+| Sectors | 12 | 12 | 0 | 100% |
+| Blog | 8 | 8 | 0 | 100% |
+| Comparisons | 4 | 4 | 0 | 100% |
+| Legal | 2 | 2 | 0 | 100% |
+| **TOTAL** | **46** | **46** | **0** | **100%** |
+
+### Browser-Based Validation (validator.schema.org)
 
 | Page Type | Sample URL | Errors | Warnings | Status |
 |-----------|------------|--------|----------|--------|
@@ -37,6 +51,8 @@ External validation was performed using browser automation on validator.schema.o
 *Warnings are informational only (optional property suggestions), not errors.
 
 **Evidence Files:**
+- `scaled-external-validation-report.json` - Full 46-URL validation results
+- `scaled-external-validation-report.csv` - CSV export for audit trail
 - `external-validation-home-ar.png` - Screenshot of home page validation
 - `external-validation-sector-ar.png` - Screenshot of sector page validation
 - `external-validation-evidence.md` - Full validation report
