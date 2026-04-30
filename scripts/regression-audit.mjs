@@ -349,25 +349,28 @@ function validateSchemaNode(node, errors, path = '') {
 // Validate entire schema graph
 function validateSchema(schemas) {
   const errors = []
-  const ids = new Set()
+  const declaredIds = new Set()
   const duplicateIds = []
   
-  function collectIds(node) {
+  // Only count @id declarations (nodes with BOTH @id AND @type)
+  // References (objects with only @id) are NOT duplicates
+  function collectDeclaredIds(node) {
     if (!node || typeof node !== 'object') return
-    if (node['@id']) {
-      if (ids.has(node['@id'])) {
+    // Only count as declaration if it has both @id AND @type
+    if (node['@id'] && node['@type']) {
+      if (declaredIds.has(node['@id'])) {
         duplicateIds.push(node['@id'])
       }
-      ids.add(node['@id'])
+      declaredIds.add(node['@id'])
     }
     if (node['@graph']) {
-      node['@graph'].forEach(collectIds)
+      node['@graph'].forEach(collectDeclaredIds)
     }
     for (const value of Object.values(node)) {
       if (Array.isArray(value)) {
-        value.forEach(collectIds)
+        value.forEach(collectDeclaredIds)
       } else if (typeof value === 'object') {
-        collectIds(value)
+        collectDeclaredIds(value)
       }
     }
   }
@@ -385,18 +388,18 @@ function validateSchema(schemas) {
       errors.push({ error: schema.error, severity: 'error' })
       continue
     }
-    collectIds(schema)
+    collectDeclaredIds(schema)
     validateNodes(schema)
   }
   
   if (duplicateIds.length > 0) {
     errors.push({
-      error: `Duplicate @id values found: ${duplicateIds.join(', ')}`,
+      error: `Duplicate @id declarations found: ${duplicateIds.join(', ')}`,
       severity: 'error',
     })
   }
   
-  return { errors, ids: Array.from(ids), duplicateIds }
+  return { errors, ids: Array.from(declaredIds), duplicateIds }
 }
 
 // Check if page has FAQ content
@@ -584,15 +587,38 @@ async function runAudit() {
   }
   
   // Validate internal links
+  // The site uses /ar/... URLs but files are at /lang/ar/...
+  // Map URL paths to file system paths
+  const LANG_CODES = ['ar', 'en', 'hi', 'ur']
+  
   for (const link of allInternalLinks) {
     const normalizedLink = link.replace(/\/$/, '') || '/'
-    if (!allGeneratedPaths.has(normalizedLink) && !allGeneratedPaths.has(normalizedLink + '/')) {
-      // Check if file exists
+    
+    // Map /ar/... to /lang/ar/... for file lookup
+    let fsPath = normalizedLink
+    for (const lang of LANG_CODES) {
+      if (normalizedLink === `/${lang}` || normalizedLink.startsWith(`/${lang}/`)) {
+        fsPath = `/lang${normalizedLink}`
+        break
+      }
+    }
+    
+    // Check if the URL path matches generated paths (accounting for /lang/ prefix)
+    const matchesGenerated = allGeneratedPaths.has(normalizedLink) || 
+                             allGeneratedPaths.has(normalizedLink + '/') ||
+                             allGeneratedPaths.has(fsPath) ||
+                             allGeneratedPaths.has(fsPath + '/')
+    
+    if (!matchesGenerated) {
+      // Check if file exists with various path patterns
       const possiblePaths = [
-        path.join(DIST, normalizedLink, 'index.html'),
-        path.join(DIST, normalizedLink + '.html'),
+        path.join(DIST, fsPath, 'index.html'),
+        path.join(DIST, fsPath + '.html'),
+        path.join(DIST, fsPath.slice(1), 'index.html'),
+        path.join(DIST, fsPath.slice(1) + '.html'),
+        // Also check without /lang/ prefix for assets
+        path.join(DIST, normalizedLink.slice(1)),
         path.join(DIST, normalizedLink.slice(1), 'index.html'),
-        path.join(DIST, normalizedLink.slice(1) + '.html'),
       ]
       const exists = possiblePaths.some(p => fs.existsSync(p))
       if (!exists) {
