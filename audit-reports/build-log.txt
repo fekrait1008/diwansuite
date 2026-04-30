@@ -1,0 +1,79 @@
+
+> diwan-suite-landing@1.0.0 build
+> npm run build:assets && node node_modules/typescript/lib/tsc.js -b && node node_modules/vite/bin/vite.js build && node node_modules/vite/bin/vite.js build --ssr src/entry-server.tsx --outDir dist/server && node prerender.mjs && node scripts/check-budgets.mjs && node scripts/check-seo-aeo.mjs && node scripts/validate-schema.mjs
+
+
+> diwan-suite-landing@1.0.0 build:assets
+> node scripts/optimize-assets.mjs
+
+[OK] optimized OG assets (139 KB total, 0 regenerated)
+vite v7.3.2 building client environment for production...
+transforming...
+✓ 1778 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                           1.11 kB │ gzip:  0.48 kB
+dist/.vite/manifest.json                  2.61 kB │ gzip:  0.54 kB
+dist/.vite/ssr-manifest.json            188.38 kB │ gzip:  9.78 kB
+dist/assets/index-B8OBhnGU.css           64.61 kB │ gzip: 11.14 kB
+dist/assets/scroll-depth-uIm_m3QN.js      0.55 kB │ gzip:  0.38 kB
+dist/assets/monitoring-BwXn_sdP.js        1.50 kB │ gzip:  0.74 kB
+dist/assets/rum-vitals-RR3w4h2U.js       11.63 kB │ gzip:  4.51 kB
+dist/assets/icon-vendor-zg-8J2a4.js      15.13 kB │ gzip:  5.36 kB
+dist/assets/internal-pages-C6lkfZeW.js   37.13 kB │ gzip:  8.46 kB
+dist/assets/CTA-BTcHWMLW.js              44.19 kB │ gzip: 12.46 kB
+dist/assets/BlogPage-D0mxTk2T.js         96.92 kB │ gzip: 20.60 kB
+dist/assets/index-CcSH7rjo.js           110.88 kB │ gzip: 25.37 kB
+dist/assets/react-core-BCm6-glk.js      192.41 kB │ gzip: 60.25 kB
+✓ built in 1.67s
+vite v7.3.2 building ssr environment for production...
+transforming...
+✓ 64 modules transformed.
+rendering chunks...
+dist/server/.vite/manifest.json                    1.04 kB
+dist/server/.vite/ssr-manifest.json                2.62 kB
+dist/server/assets/BlogPage-DAounvDx.js           21.27 kB
+dist/server/assets/internal-pages-CKneA6YW.js     52.06 kB
+dist/server/assets/CTA-CJuDORuB.js                66.78 kB
+dist/server/entry-server.js                    1,996.53 kB
+✓ built in 669ms
+Pre-render complete: 316 localized pages generated.
+[BUDGET] Passed
+
+[SEO-AEO] Top 10 internal pages by HTML bytes (limit: 160000 )
+  Route                                                         HTML bytes    Status
+  [hi] /hi/blog                                                     153948        ok
+  [ar] /ar/blog                                                     146326        ok
+  [ur] /ur/blog                                                     145249        ok
+  [en] /en/blog                                                     131051        ok
+  [hi] /hi/ai-meeting-minutes-vs-manual-word-pdf                    116772        ok
+  [hi] /hi/manual-board-decision-tracking-vs-automated-platfo       116267        ok
+  [hi] /hi/board-portal-vs-email                                    115825        ok
+  [hi] /hi/governance-platform-vs-meeting-software                  115419        ok
+  [hi] /hi/board-portal-vs-teams-zoom                               115254        ok
+  [hi] /hi/meeting-minutes-software-vs-word-pdf                     114817        ok
+
+[SEO-AEO] Top 10 internal pages by payload bytes (limit: 36000 )
+  Route                                                        Payload bytes    Status
+  [hi] /hi/sectors/universities-institutes-governance                  34371        ok
+  [hi] /hi/ai-meeting-minutes-vs-manual-word-pdf                       34319        ok
+  [hi] /hi/manual-board-decision-tracking-vs-automated-platfo          34025        ok
+  [hi] /hi/meeting-management-software                                 33949        ok
+  [hi] /hi/board-portal-vs-email                                       33832        ok
+  [hi] /hi/governance-platform-vs-meeting-software                     33699        ok
+  [hi] /hi/board-portal-vs-teams-zoom                                  33656        ok
+  [hi] /hi/sectors/ministries-government-entities-governance           33625        ok
+  [hi] /hi/meeting-minutes-software-vs-word-pdf                        33549        ok
+  [hi] /hi/sectors/municipalities-governance                           33505        ok
+
+[SEO-AEO] Passed
+[Schema Validation] Starting validation...
+
+[Schema Validation] Summary:
+  Total pages validated: 316
+  Pages with errors: 0
+  Total errors: 0
+
+[Schema Validation] Full report written to: /vercel/share/v0-project/dist/schema-validation-report.json
+
+[Schema Validation] PASSED: All schemas are valid
