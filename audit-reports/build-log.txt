@@ -25,7 +25,7 @@ dist/assets/CTA-BTcHWMLW.js              44.19 kB │ gzip: 12.46 kB
 dist/assets/BlogPage-D0mxTk2T.js         96.92 kB │ gzip: 20.60 kB
 dist/assets/index-CcSH7rjo.js           110.88 kB │ gzip: 25.37 kB
 dist/assets/react-core-BCm6-glk.js      192.41 kB │ gzip: 60.25 kB
-✓ built in 1.67s
+✓ built in 1.91s
 vite v7.3.2 building ssr environment for production...
 transforming...
 ✓ 64 modules transformed.
@@ -36,7 +36,7 @@ dist/server/assets/BlogPage-DAounvDx.js           21.27 kB
 dist/server/assets/internal-pages-CKneA6YW.js     52.06 kB
 dist/server/assets/CTA-CJuDORuB.js                66.78 kB
 dist/server/entry-server.js                    1,996.53 kB
-✓ built in 669ms
+✓ built in 750ms
 Pre-render complete: 316 localized pages generated.
 [BUDGET] Passed
 
