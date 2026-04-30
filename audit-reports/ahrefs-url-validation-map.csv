@@ -1,1 +1,93 @@
-ahrefs_url,generated_file,schema_types,validation_result,error_count,status
+ahrefs_url,issue_type,original_error,fix_applied,validation_result,status
+https://diwansuite.com/ar,Schema Validation Error,SoftwareApplication missing @id; Question has invalid inLanguage,Added @id to SoftwareApplication; Removed inLanguage from Question type,VALID,FIXED
+https://diwansuite.com/en,Schema Validation Error,SoftwareApplication missing @id; Question has invalid inLanguage,Added @id to SoftwareApplication; Removed inLanguage from Question type,VALID,FIXED
+https://diwansuite.com/hi,Schema Validation Error,SoftwareApplication missing @id; Question has invalid inLanguage,Added @id to SoftwareApplication; Removed inLanguage from Question type,VALID,FIXED
+https://diwansuite.com/ur,Schema Validation Error,SoftwareApplication missing @id; Question has invalid inLanguage,Added @id to SoftwareApplication; Removed inLanguage from Question type,VALID,FIXED
+https://diwansuite.com/ar/about,Schema Validation Error,Service schema structural issues,Service areaServed typed as Country; Added availableLanguage,VALID,FIXED
+https://diwansuite.com/en/about,Schema Validation Error,Service schema structural issues,Service areaServed typed as Country; Added availableLanguage,VALID,FIXED
+https://diwansuite.com/hi/about,Schema Validation Error,Service schema structural issues,Service areaServed typed as Country; Added availableLanguage,VALID,FIXED
+https://diwansuite.com/ur/about,Schema Validation Error,Service schema structural issues,Service areaServed typed as Country; Added availableLanguage,VALID,FIXED
+https://diwansuite.com/ar/board-management-software,Schema Validation Error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/board-management-software,Schema Validation Error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/board-management-software,Schema Validation Error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/board-management-software,Schema Validation Error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/meeting-management-software,Schema Validation Error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/meeting-management-software,Schema Validation Error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/meeting-management-software,Schema Validation Error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/meeting-management-software,Schema Validation Error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/ai-meeting-minutes,Schema Validation Error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/ai-meeting-minutes,Schema Validation Error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/ai-meeting-minutes,Schema Validation Error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/ai-meeting-minutes,Schema Validation Error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/decision-tracking,Schema Validation Error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/decision-tracking,Schema Validation Error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/decision-tracking,Schema Validation Error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/decision-tracking,Schema Validation Error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/secure-document-management,Schema Validation Error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/secure-document-management,Schema Validation Error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/secure-document-management,Schema Validation Error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/secure-document-management,Schema Validation Error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/sectors/banks-financial-institutions-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/en/sectors/banks-financial-institutions-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/hi/sectors/banks-financial-institutions-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/ur/sectors/banks-financial-institutions-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/ar/sectors/ministries-government-entities-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/en/sectors/ministries-government-entities-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/hi/sectors/ministries-government-entities-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/ur/sectors/ministries-government-entities-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/ar/sectors/municipalities-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/en/sectors/municipalities-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/hi/sectors/municipalities-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/ur/sectors/municipalities-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/ar/sectors/universities-institutes-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/en/sectors/universities-institutes-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/hi/sectors/universities-institutes-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/ur/sectors/universities-institutes-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/ar/sectors/holding-companies-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/en/sectors/holding-companies-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/hi/sectors/holding-companies-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/ur/sectors/holding-companies-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/ar/sectors/healthcare-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/en/sectors/healthcare-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/hi/sectors/healthcare-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/ur/sectors/healthcare-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/ar/sectors/npos-foundations-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/en/sectors/npos-foundations-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/hi/sectors/npos-foundations-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/ur/sectors/npos-foundations-governance,Schema Validation Error,Service Audience type issues,Audience properly typed with audienceType,VALID,FIXED
+https://diwansuite.com/ar/blog,Schema Validation Error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/en/blog,Schema Validation Error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/hi/blog,Schema Validation Error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/ur/blog,Schema Validation Error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/ar/board-portal-vs-email,Schema Validation Error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/en/board-portal-vs-email,Schema Validation Error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/hi/board-portal-vs-email,Schema Validation Error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ur/board-portal-vs-email,Schema Validation Error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ar/board-portal-vs-teams-zoom,Schema Validation Error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/en/board-portal-vs-teams-zoom,Schema Validation Error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/hi/board-portal-vs-teams-zoom,Schema Validation Error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ur/board-portal-vs-teams-zoom,Schema Validation Error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ar/governance-platform-vs-meeting-software,Schema Validation Error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/en/governance-platform-vs-meeting-software,Schema Validation Error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/hi/governance-platform-vs-meeting-software,Schema Validation Error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ur/governance-platform-vs-meeting-software,Schema Validation Error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ar/ai-meeting-minutes-vs-manual-word-pdf,Schema Validation Error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/en/ai-meeting-minutes-vs-manual-word-pdf,Schema Validation Error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/hi/ai-meeting-minutes-vs-manual-word-pdf,Schema Validation Error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ur/ai-meeting-minutes-vs-manual-word-pdf,Schema Validation Error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ar/meeting-minutes-software-vs-word-pdf,Schema Validation Error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/en/meeting-minutes-software-vs-word-pdf,Schema Validation Error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/hi/meeting-minutes-software-vs-word-pdf,Schema Validation Error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ur/meeting-minutes-software-vs-word-pdf,Schema Validation Error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ar/manual-board-decision-tracking-vs-automated-platform,Schema Validation Error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/en/manual-board-decision-tracking-vs-automated-platform,Schema Validation Error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/hi/manual-board-decision-tracking-vs-automated-platform,Schema Validation Error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ur/manual-board-decision-tracking-vs-automated-platform,Schema Validation Error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ar/privacy,Schema Validation Error,WebPage schema issues,All schema types validated,VALID,FIXED
+https://diwansuite.com/en/privacy,Schema Validation Error,WebPage schema issues,All schema types validated,VALID,FIXED
+https://diwansuite.com/hi/privacy,Schema Validation Error,WebPage schema issues,All schema types validated,VALID,FIXED
+https://diwansuite.com/ur/privacy,Schema Validation Error,WebPage schema issues,All schema types validated,VALID,FIXED
+https://diwansuite.com/ar/terms,Schema Validation Error,WebPage schema issues,All schema types validated,VALID,FIXED
+https://diwansuite.com/en/terms,Schema Validation Error,WebPage schema issues,All schema types validated,VALID,FIXED
+https://diwansuite.com/hi/terms,Schema Validation Error,WebPage schema issues,All schema types validated,VALID,FIXED
+https://diwansuite.com/ur/terms,Schema Validation Error,WebPage schema issues,All schema types validated,VALID,FIXED
