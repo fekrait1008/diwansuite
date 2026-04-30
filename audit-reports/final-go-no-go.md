@@ -21,6 +21,26 @@
 | Sitemap Generation | PASS | 4 language-specific sitemaps generated |
 | TypeScript Compilation | PASS | No type errors |
 | Pre-render | PASS | 316 pages successfully generated |
+| **External Validation** | **PASS** | **validator.schema.org: 0 ERRORS** |
+
+---
+
+## External Validation Evidence
+
+External validation was performed using browser automation on validator.schema.org:
+
+| Page Type | Sample URL | Errors | Warnings | Status |
+|-----------|------------|--------|----------|--------|
+| Home (Arabic) | /ar | 0 | 0 | PASS |
+| Sector (Arabic) | /ar/sectors/holding-companies-governance | 0 | 4* | PASS |
+
+*Warnings are informational only (optional property suggestions), not errors.
+
+**Evidence Files:**
+- `external-validation-home-ar.png` - Screenshot of home page validation
+- `external-validation-sector-ar.png` - Screenshot of sector page validation
+- `external-validation-evidence.md` - Full validation report
+- `schema-samples/*.json` - Extracted JSON-LD for each page type
 
 ---
 
