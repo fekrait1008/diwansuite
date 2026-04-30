@@ -1,0 +1,137 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://diwansuite.com/ar#organization",
+      "@type": "Organization",
+      "name": "Diwan Suite",
+      "alternateName": "ديوان سويت",
+      "legalName": "Fekra Software Information Technology Establishment",
+      "url": "https://diwansuite.com/ar",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://diwansuite.com/logo-diwan.svg"
+      },
+      "telephone": "+966560000934",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "sales",
+          "telephone": "+966560000934",
+          "url": "https://diwansuite.com/ar#booking-cta",
+          "availableLanguage": [
+            "ar-SA",
+            "en-US",
+            "hi-IN",
+            "ur-PK"
+          ]
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Riyadh",
+        "addressRegion": "Riyadh",
+        "addressCountry": "SA"
+      },
+      "areaServed": [
+        "SA",
+        "AE",
+        "KW",
+        "QA",
+        "BH",
+        "OM"
+      ]
+    },
+    {
+      "@id": "https://diwansuite.com/ar#website",
+      "@type": "WebSite",
+      "url": "https://diwansuite.com/ar",
+      "name": "Diwan Suite",
+      "publisher": {
+        "@id": "https://diwansuite.com/ar#organization"
+      },
+      "inLanguage": [
+        "ar-SA",
+        "en-US",
+        "hi-IN",
+        "ur-PK"
+      ]
+    },
+    {
+      "@id": "https://diwansuite.com/ar#webpage",
+      "@type": "WebPage",
+      "url": "https://diwansuite.com/ar",
+      "name": "ديوان سويت | منصة حوكمة اجتماعات المجالس والقرارات",
+      "description": "ديوان سويت منصة حوكمة مجالس الإدارة واللجان تُدير القرارات والمحاضر والتنفيذ والامتثال في بيئة مؤسسية واحدة مدعومة بالذكاء الاصطناعي وجاهزة للجهات السعودية.",
+      "inLanguage": "ar-SA",
+      "dateModified": "2026-04-26",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://diwansuite.com/ar#website"
+      },
+      "breadcrumb": {
+        "@id": "https://diwansuite.com/ar#breadcrumb"
+      }
+    },
+    {
+      "@id": "https://diwansuite.com/ar#breadcrumb",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "الرئيسية",
+          "item": "https://diwansuite.com/ar"
+        }
+      ]
+    },
+    {
+      "@id": "https://diwansuite.com/ar#software",
+      "@type": "SoftwareApplication",
+      "name": "ديوان سويت — منصة حوكمة المجالس والقرارات",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "SAR",
+        "priceValidUntil": "2027-04-30",
+        "availability": "https://schema.org/OnlineOnly",
+        "url": "https://diwansuite.com/ar"
+      },
+      "provider": {
+        "@id": "https://diwansuite.com/ar#organization"
+      },
+      "url": "https://diwansuite.com/ar"
+    },
+    {
+      "@id": "https://diwansuite.com/ar#decision-journey",
+      "@type": "ItemList",
+      "name": "رحلة القرار من الاجتماع إلى التنفيذ",
+      "itemListOrder": "https://schema.org/ItemListOrderAscending",
+      "numberOfItems": 4,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "ينشئ الاجتماع ويضبط الأعضاء والبنود والمرفقات."
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "يرسل الدعوات ويتابع الحضور والنصاب والاعتذارات."
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "يوثق المحاضر والاعتمادات والقرارات إلكترونيًا."
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "يحوّل القرارات إلى مهام ويتابع التنفيذ عبر تقارير ولوحات واضحة."
+        }
+      ]
+    }
+  ]
+}

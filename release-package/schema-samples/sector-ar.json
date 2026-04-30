@@ -1,0 +1,246 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://diwansuite.com/ar#organization",
+      "@type": "Organization",
+      "name": "Diwan Suite",
+      "alternateName": "ديوان سويت",
+      "legalName": "Fekra Software Information Technology Establishment",
+      "url": "https://diwansuite.com/ar",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://diwansuite.com/logo-diwan.svg"
+      },
+      "telephone": "+966560000934",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "sales",
+          "telephone": "+966560000934",
+          "url": "https://diwansuite.com/ar#booking-cta",
+          "availableLanguage": [
+            "ar-SA",
+            "en-US",
+            "hi-IN",
+            "ur-PK"
+          ]
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Riyadh",
+        "addressRegion": "Riyadh",
+        "addressCountry": "SA"
+      },
+      "areaServed": [
+        "SA",
+        "AE",
+        "KW",
+        "QA",
+        "BH",
+        "OM"
+      ]
+    },
+    {
+      "@id": "https://diwansuite.com/ar#website",
+      "@type": "WebSite",
+      "url": "https://diwansuite.com/ar",
+      "name": "Diwan Suite",
+      "publisher": {
+        "@id": "https://diwansuite.com/ar#organization"
+      },
+      "inLanguage": [
+        "ar-SA",
+        "en-US",
+        "hi-IN",
+        "ur-PK"
+      ]
+    },
+    {
+      "@id": "https://diwansuite.com/ar/sectors/holding-companies-governance#webpage",
+      "@type": "WebPage",
+      "url": "https://diwansuite.com/ar/sectors/holding-companies-governance",
+      "name": "حوكمة مجالس الإدارة واللجان لدى الشركات القابضة | ديوان سويت",
+      "description": "يساعد ديوان سويت الشركات القابضة على ضبط اجتماعات مجلس المجموعة واللجان، وتوحيد المحاضر والقرارات، وربط قرارات الشركة القابضة بمتابعة الشركات التابعة ضمن…",
+      "inLanguage": "ar-SA",
+      "dateModified": "2026-03-10",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@id": "https://diwansuite.com/ar#website"
+      },
+      "breadcrumb": {
+        "@id": "https://diwansuite.com/ar/sectors/holding-companies-governance#breadcrumb"
+      },
+      "audience": [
+        {
+          "@type": "Audience",
+          "audienceType": "مجلس إدارة الشركة القابضة وأمانة المجلس"
+        },
+        {
+          "@type": "Audience",
+          "audienceType": "اللجان المنبثقة على مستوى المجموعة مثل المراجعة والمخاطر والاستثمار"
+        },
+        {
+          "@type": "Audience",
+          "audienceType": "الإدارة التنفيذية ووحدات الحوكمة والالتزام المعنية بمتابعة قرارات الشركات التابعة"
+        }
+      ],
+      "about": {
+        "@id": "https://diwansuite.com/ar/sectors/holding-companies-governance#service"
+      },
+      "mainEntity": {
+        "@id": "https://diwansuite.com/ar/sectors/holding-companies-governance#faq"
+      }
+    },
+    {
+      "@id": "https://diwansuite.com/ar/sectors/holding-companies-governance#breadcrumb",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "الرئيسية",
+          "item": "https://diwansuite.com/ar"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "حوكمة مجالس الإدارة واللجان لدى الشركات القابضة",
+          "item": "https://diwansuite.com/ar/sectors/holding-companies-governance"
+        }
+      ]
+    },
+    {
+      "@id": "https://diwansuite.com/ar/sectors/holding-companies-governance#service",
+      "@type": "Service",
+      "name": "حوكمة مجالس الإدارة واللجان لدى الشركات القابضة | ديوان سويت",
+      "description": "يساعد ديوان سويت الشركات القابضة على ضبط اجتماعات مجلس المجموعة واللجان، وتوحيد المحاضر والقرارات، وربط قرارات الشركة القابضة بمتابعة الشركات التابعة ضمن…",
+      "serviceType": "حوكمة مجالس الإدارة واللجان لدى الشركات القابضة | ديوان سويت",
+      "provider": {
+        "@id": "https://diwansuite.com/ar#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "SA"
+        },
+        {
+          "@type": "Country",
+          "name": "AE"
+        },
+        {
+          "@type": "Country",
+          "name": "KW"
+        },
+        {
+          "@type": "Country",
+          "name": "QA"
+        },
+        {
+          "@type": "Country",
+          "name": "BH"
+        },
+        {
+          "@type": "Country",
+          "name": "OM"
+        }
+      ],
+      "availableLanguage": [
+        "ar-SA",
+        "en-US",
+        "hi-IN",
+        "ur-PK"
+      ],
+      "audience": [
+        {
+          "@type": "Audience",
+          "audienceType": "مجلس إدارة الشركة القابضة وأمانة المجلس"
+        },
+        {
+          "@type": "Audience",
+          "audienceType": "اللجان المنبثقة على مستوى المجموعة مثل المراجعة والمخاطر والاستثمار"
+        },
+        {
+          "@type": "Audience",
+          "audienceType": "الإدارة التنفيذية ووحدات الحوكمة والالتزام المعنية بمتابعة قرارات الشركات التابعة"
+        }
+      ]
+    },
+    {
+      "@id": "https://diwansuite.com/ar/sectors/holding-companies-governance#workflow",
+      "@type": "ItemList",
+      "name": "كيف يعمل",
+      "itemListOrder": "https://schema.org/ItemListOrderAscending",
+      "numberOfItems": 3,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "تهيئة مجلس المجموعة واللجان والصلاحيات وسجلات العضوية والتفويض"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "إدارة الاجتماعات وجدول الأعمال والمرفقات والمحاضر والاعتمادات في مسار موحد"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "تحويل القرارات إلى مهام أو التزامات تنفيذية وربطها بتقارير مجمعة للشركة القابضة والشركات التابعة"
+        }
+      ]
+    },
+    {
+      "@id": "https://diwansuite.com/ar/sectors/holding-companies-governance#faq",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "كيف يساعد ديوان سويت الشركات القابضة على إدارة اجتماعات مجلس المجموعة واللجان؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "يساعد عبر مركزية إدارة اجتماعات مجلس المجموعة واللجان داخل مسار واحد يربط الدعوات وجدول الأعمال والمحاضر والقرارات والتنفيذ والتقارير بدل الاعتماد على البريد والملفات المتفرقة.",
+            "inLanguage": "ar-SA"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "كيف يتم توثيق المحاضر والاعتماد في الشركات القابضة؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "يدعم ديوان سويت توحيد المحاضر والاعتمادات بين الشركة القابضة والشركات التابعة من خلال محاضر رسمية، ومسارات اعتماد، وتوقيع إلكتروني، وختم زمني، وسجل تدقيق واضح.",
+            "inLanguage": "ar-SA"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "كيف تتم متابعة القرارات بعد الاجتماع في الشركات القابضة؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "يربط المنصة القرارات بمسؤول واضح وتاريخ استحقاق وحالة تنفيذ وتنبيهات وتصعيد، بما يدعم متابعة قرارات المجموعة والتفويض والتنفيذ عبر الشركات التابعة.",
+            "inLanguage": "ar-SA"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "هل يدعم النصاب والتصويت والجاهزية الرقابية في الشركات القابضة؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "نعم، يدعم الحضور والنصاب والتصويت بحسب سياق الصفحة، مع سجلات موثقة تساعد على رؤية مجمعة للحوكمة والامتثال على مستوى المجموعة.",
+            "inLanguage": "ar-SA"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "كيف يخدم أمانة مجلس المجموعة والإدارة العليا؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "يوفر رؤية تنفيذية أوضح للاجتماعات والمحاضر والقرارات المتأخرة، ويقلل التعثر، ويرفع جودة التقارير والامتثال لصناع القرار.",
+            "inLanguage": "ar-SA"
+          }
+        }
+      ]
+    }
+  ]
+}

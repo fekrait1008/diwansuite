@@ -1,0 +1,1908 @@
+{
+  "timestamp": "2026-04-30T12:06:56.259Z",
+  "totalPages": 320,
+  "issues": [
+    {
+      "url": "/",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/",
+      "actual": "https://diwansuite.com/ar"
+    },
+    {
+      "url": "/lang/ar/about",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/about",
+      "actual": "https://diwansuite.com/ar/about"
+    },
+    {
+      "url": "/lang/ar/ai-governance-assistant",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/ai-governance-assistant",
+      "actual": "https://diwansuite.com/ar/ai-governance-assistant"
+    },
+    {
+      "url": "/lang/ar/ai-governance-decision-support",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/ai-governance-decision-support",
+      "actual": "https://diwansuite.com/ar/ai-governance-decision-support"
+    },
+    {
+      "url": "/lang/ar/ai-meeting-minutes-vs-manual-word-pdf",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/ai-meeting-minutes-vs-manual-word-pdf",
+      "actual": "https://diwansuite.com/ar/ai-meeting-minutes-vs-manual-word-pdf"
+    },
+    {
+      "url": "/lang/ar/attendance-quorum-qr",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/attendance-quorum-qr",
+      "actual": "https://diwansuite.com/ar/attendance-quorum-qr"
+    },
+    {
+      "url": "/lang/ar/audit-committee-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/audit-committee-management-software",
+      "actual": "https://diwansuite.com/ar/audit-committee-management-software"
+    },
+    {
+      "url": "/lang/ar/banking-financial-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/banking-financial-governance",
+      "actual": "https://diwansuite.com/ar/banking-financial-governance"
+    },
+    {
+      "url": "/lang/ar/banks-board-committee-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/banks-board-committee-governance-software",
+      "actual": "https://diwansuite.com/ar/banks-board-committee-governance-software"
+    },
+    {
+      "url": "/lang/ar/blog/ai-meeting-summaries-minutes",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/blog/ai-meeting-summaries-minutes",
+      "actual": "https://diwansuite.com/ar/blog/ai-meeting-summaries-minutes"
+    },
+    {
+      "url": "/lang/ar/blog/board-portal-vs-meeting-tools-guide",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/blog/board-portal-vs-meeting-tools-guide",
+      "actual": "https://diwansuite.com/ar/blog/board-portal-vs-meeting-tools-guide"
+    },
+    {
+      "url": "/lang/ar/blog/committee-governance-best-practices",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/blog/committee-governance-best-practices",
+      "actual": "https://diwansuite.com/ar/blog/committee-governance-best-practices"
+    },
+    {
+      "url": "/lang/ar/blog/general-assembly-quorum-importance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/blog/general-assembly-quorum-importance",
+      "actual": "https://diwansuite.com/ar/blog/general-assembly-quorum-importance"
+    },
+    {
+      "url": "/lang/ar/blog/how-to-choose-board-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/blog/how-to-choose-board-governance-software",
+      "actual": "https://diwansuite.com/ar/blog/how-to-choose-board-governance-software"
+    },
+    {
+      "url": "/lang/ar/blog/how-to-track-board-decisions",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/blog/how-to-track-board-decisions",
+      "actual": "https://diwansuite.com/ar/blog/how-to-track-board-decisions"
+    },
+    {
+      "url": "/lang/ar/blog",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/blog",
+      "actual": "https://diwansuite.com/ar/blog"
+    },
+    {
+      "url": "/lang/ar/blog/meeting-minutes-vs-meeting-decision",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/blog/meeting-minutes-vs-meeting-decision",
+      "actual": "https://diwansuite.com/ar/blog/meeting-minutes-vs-meeting-decision"
+    },
+    {
+      "url": "/lang/ar/blog/reduce-meeting-minutes-errors",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/blog/reduce-meeting-minutes-errors",
+      "actual": "https://diwansuite.com/ar/blog/reduce-meeting-minutes-errors"
+    },
+    {
+      "url": "/lang/ar/blog/what-is-meeting-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/blog/what-is-meeting-management-software",
+      "actual": "https://diwansuite.com/ar/blog/what-is-meeting-management-software"
+    },
+    {
+      "url": "/lang/ar/blog/why-email-not-enough-board-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/blog/why-email-not-enough-board-governance",
+      "actual": "https://diwansuite.com/ar/blog/why-email-not-enough-board-governance"
+    },
+    {
+      "url": "/lang/ar/board-decision-management-vs-task-management",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/board-decision-management-vs-task-management",
+      "actual": "https://diwansuite.com/ar/board-decision-management-vs-task-management"
+    },
+    {
+      "url": "/lang/ar/board-decisions-tracking-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/board-decisions-tracking-software",
+      "actual": "https://diwansuite.com/ar/board-decisions-tracking-software"
+    },
+    {
+      "url": "/lang/ar/board-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/board-governance-software",
+      "actual": "https://diwansuite.com/ar/board-governance-software"
+    },
+    {
+      "url": "/lang/ar/board-governance-software-government-saudi-arabia",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/board-governance-software-government-saudi-arabia",
+      "actual": "https://diwansuite.com/ar/board-governance-software-government-saudi-arabia"
+    },
+    {
+      "url": "/lang/ar/board-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/board-management-software",
+      "actual": "https://diwansuite.com/ar/board-management-software"
+    },
+    {
+      "url": "/lang/ar/board-management-system",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/board-management-system",
+      "actual": "https://diwansuite.com/ar/board-management-system"
+    },
+    {
+      "url": "/lang/ar/board-of-directors-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/board-of-directors-governance-software",
+      "actual": "https://diwansuite.com/ar/board-of-directors-governance-software"
+    },
+    {
+      "url": "/lang/ar/board-portal-saudi-arabia",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/board-portal-saudi-arabia",
+      "actual": "https://diwansuite.com/ar/board-portal-saudi-arabia"
+    },
+    {
+      "url": "/lang/ar/board-portal-vs-email",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/board-portal-vs-email",
+      "actual": "https://diwansuite.com/ar/board-portal-vs-email"
+    },
+    {
+      "url": "/lang/ar/board-portal-vs-sharepoint-google-drive",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/board-portal-vs-sharepoint-google-drive",
+      "actual": "https://diwansuite.com/ar/board-portal-vs-sharepoint-google-drive"
+    },
+    {
+      "url": "/lang/ar/board-portal-vs-teams-zoom",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/board-portal-vs-teams-zoom",
+      "actual": "https://diwansuite.com/ar/board-portal-vs-teams-zoom"
+    },
+    {
+      "url": "/lang/ar/board-secretary-system",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/board-secretary-system",
+      "actual": "https://diwansuite.com/ar/board-secretary-system"
+    },
+    {
+      "url": "/lang/ar/committee-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/committee-governance-software",
+      "actual": "https://diwansuite.com/ar/committee-governance-software"
+    },
+    {
+      "url": "/lang/ar/committee-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/committee-management-software",
+      "actual": "https://diwansuite.com/ar/committee-management-software"
+    },
+    {
+      "url": "/lang/ar/corporate-governance-platform",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/corporate-governance-platform",
+      "actual": "https://diwansuite.com/ar/corporate-governance-platform"
+    },
+    {
+      "url": "/lang/ar/corporate-meeting-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/corporate-meeting-management-software",
+      "actual": "https://diwansuite.com/ar/corporate-meeting-management-software"
+    },
+    {
+      "url": "/lang/ar/decision-management-tracking",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/decision-management-tracking",
+      "actual": "https://diwansuite.com/ar/decision-management-tracking"
+    },
+    {
+      "url": "/lang/ar/electronic-meeting-minutes-vs-paper-minutes",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/electronic-meeting-minutes-vs-paper-minutes",
+      "actual": "https://diwansuite.com/ar/electronic-meeting-minutes-vs-paper-minutes"
+    },
+    {
+      "url": "/lang/ar/electronic-voting-meetings",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/electronic-voting-meetings",
+      "actual": "https://diwansuite.com/ar/electronic-voting-meetings"
+    },
+    {
+      "url": "/lang/ar/family-business-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/family-business-governance-software",
+      "actual": "https://diwansuite.com/ar/family-business-governance-software"
+    },
+    {
+      "url": "/lang/ar/general-assembly-management",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/general-assembly-management",
+      "actual": "https://diwansuite.com/ar/general-assembly-management"
+    },
+    {
+      "url": "/lang/ar/general-assembly-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/general-assembly-management-software",
+      "actual": "https://diwansuite.com/ar/general-assembly-management-software"
+    },
+    {
+      "url": "/lang/ar/governance-platform-vs-meeting-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/governance-platform-vs-meeting-software",
+      "actual": "https://diwansuite.com/ar/governance-platform-vs-meeting-software"
+    },
+    {
+      "url": "/lang/ar/governance-reports",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/governance-reports",
+      "actual": "https://diwansuite.com/ar/governance-reports"
+    },
+    {
+      "url": "/lang/ar/governance-reports-dashboards",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/governance-reports-dashboards",
+      "actual": "https://diwansuite.com/ar/governance-reports-dashboards"
+    },
+    {
+      "url": "/lang/ar/governance-security-compliance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/governance-security-compliance",
+      "actual": "https://diwansuite.com/ar/governance-security-compliance"
+    },
+    {
+      "url": "/lang/ar/government-governance-platform",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/government-governance-platform",
+      "actual": "https://diwansuite.com/ar/government-governance-platform"
+    },
+    {
+      "url": "/lang/ar/healthcare-governance-meetings-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/healthcare-governance-meetings-software",
+      "actual": "https://diwansuite.com/ar/healthcare-governance-meetings-software"
+    },
+    {
+      "url": "/lang/ar/implementation-support-training",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/implementation-support-training",
+      "actual": "https://diwansuite.com/ar/implementation-support-training"
+    },
+    {
+      "url": "/lang/ar",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar",
+      "actual": "https://diwansuite.com/ar"
+    },
+    {
+      "url": "/lang/ar/integrations-board-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/integrations-board-governance",
+      "actual": "https://diwansuite.com/ar/integrations-board-governance"
+    },
+    {
+      "url": "/lang/ar/joint-stock-companies-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/joint-stock-companies-governance-software",
+      "actual": "https://diwansuite.com/ar/joint-stock-companies-governance-software"
+    },
+    {
+      "url": "/lang/ar/listed-companies-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/listed-companies-governance",
+      "actual": "https://diwansuite.com/ar/listed-companies-governance"
+    },
+    {
+      "url": "/lang/ar/manual-board-decision-tracking-vs-automated-platform",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/manual-board-decision-tracking-vs-automated-platform",
+      "actual": "https://diwansuite.com/ar/manual-board-decision-tracking-vs-automated-platform"
+    },
+    {
+      "url": "/lang/ar/manual-committee-management-vs-governance-platform",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/manual-committee-management-vs-governance-platform",
+      "actual": "https://diwansuite.com/ar/manual-committee-management-vs-governance-platform"
+    },
+    {
+      "url": "/lang/ar/meeting-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/meeting-management-software",
+      "actual": "https://diwansuite.com/ar/meeting-management-software"
+    },
+    {
+      "url": "/lang/ar/meeting-minutes-e-signature",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/meeting-minutes-e-signature",
+      "actual": "https://diwansuite.com/ar/meeting-minutes-e-signature"
+    },
+    {
+      "url": "/lang/ar/meeting-minutes-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/meeting-minutes-software",
+      "actual": "https://diwansuite.com/ar/meeting-minutes-software"
+    },
+    {
+      "url": "/lang/ar/meeting-minutes-software-vs-word-pdf",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/meeting-minutes-software-vs-word-pdf",
+      "actual": "https://diwansuite.com/ar/meeting-minutes-software-vs-word-pdf"
+    },
+    {
+      "url": "/lang/ar/nomination-remuneration-committee-management",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/nomination-remuneration-committee-management",
+      "actual": "https://diwansuite.com/ar/nomination-remuneration-committee-management"
+    },
+    {
+      "url": "/lang/ar/nonprofit-governance-meetings-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/nonprofit-governance-meetings-software",
+      "actual": "https://diwansuite.com/ar/nonprofit-governance-meetings-software"
+    },
+    {
+      "url": "/lang/ar/privacy",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/privacy",
+      "actual": "https://diwansuite.com/ar/privacy"
+    },
+    {
+      "url": "/lang/ar/real-estate-developer-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/real-estate-developer-governance-software",
+      "actual": "https://diwansuite.com/ar/real-estate-developer-governance-software"
+    },
+    {
+      "url": "/lang/ar/risk-committee-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/risk-committee-management-software",
+      "actual": "https://diwansuite.com/ar/risk-committee-management-software"
+    },
+    {
+      "url": "/lang/ar/roi-board-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/roi-board-governance",
+      "actual": "https://diwansuite.com/ar/roi-board-governance"
+    },
+    {
+      "url": "/lang/ar/sectors/authorities-organizations-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/sectors/authorities-organizations-governance",
+      "actual": "https://diwansuite.com/ar/sectors/authorities-organizations-governance"
+    },
+    {
+      "url": "/lang/ar/sectors/charitable-entities-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/sectors/charitable-entities-governance",
+      "actual": "https://diwansuite.com/ar/sectors/charitable-entities-governance"
+    },
+    {
+      "url": "/lang/ar/sectors/general-assemblies-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/sectors/general-assemblies-governance",
+      "actual": "https://diwansuite.com/ar/sectors/general-assemblies-governance"
+    },
+    {
+      "url": "/lang/ar/sectors/government-companies-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/sectors/government-companies-governance",
+      "actual": "https://diwansuite.com/ar/sectors/government-companies-governance"
+    },
+    {
+      "url": "/lang/ar/sectors/holding-companies-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/sectors/holding-companies-governance",
+      "actual": "https://diwansuite.com/ar/sectors/holding-companies-governance"
+    },
+    {
+      "url": "/lang/ar/sectors/homeowners-associations-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/sectors/homeowners-associations-governance",
+      "actual": "https://diwansuite.com/ar/sectors/homeowners-associations-governance"
+    },
+    {
+      "url": "/lang/ar/sectors/hospitals-clinics-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/sectors/hospitals-clinics-governance",
+      "actual": "https://diwansuite.com/ar/sectors/hospitals-clinics-governance"
+    },
+    {
+      "url": "/lang/ar/sectors",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/sectors",
+      "actual": "https://diwansuite.com/ar/sectors"
+    },
+    {
+      "url": "/lang/ar/sectors/ministries-government-entities-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/sectors/ministries-government-entities-governance",
+      "actual": "https://diwansuite.com/ar/sectors/ministries-government-entities-governance"
+    },
+    {
+      "url": "/lang/ar/sectors/municipalities-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/sectors/municipalities-governance",
+      "actual": "https://diwansuite.com/ar/sectors/municipalities-governance"
+    },
+    {
+      "url": "/lang/ar/sectors/universities-institutes-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/sectors/universities-institutes-governance",
+      "actual": "https://diwansuite.com/ar/sectors/universities-institutes-governance"
+    },
+    {
+      "url": "/lang/ar/security-compliance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/security-compliance",
+      "actual": "https://diwansuite.com/ar/security-compliance"
+    },
+    {
+      "url": "/lang/ar/support",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/support",
+      "actual": "https://diwansuite.com/ar/support"
+    },
+    {
+      "url": "/lang/ar/terms",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/terms",
+      "actual": "https://diwansuite.com/ar/terms"
+    },
+    {
+      "url": "/lang/ar/universities-board-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ar/universities-board-governance-software",
+      "actual": "https://diwansuite.com/ar/universities-board-governance-software"
+    },
+    {
+      "url": "/lang/en/about",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/about",
+      "actual": "https://diwansuite.com/en/about"
+    },
+    {
+      "url": "/lang/en/ai-governance-assistant",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/ai-governance-assistant",
+      "actual": "https://diwansuite.com/en/ai-governance-assistant"
+    },
+    {
+      "url": "/lang/en/ai-governance-decision-support",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/ai-governance-decision-support",
+      "actual": "https://diwansuite.com/en/ai-governance-decision-support"
+    },
+    {
+      "url": "/lang/en/ai-meeting-minutes-vs-manual-word-pdf",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/ai-meeting-minutes-vs-manual-word-pdf",
+      "actual": "https://diwansuite.com/en/ai-meeting-minutes-vs-manual-word-pdf"
+    },
+    {
+      "url": "/lang/en/attendance-quorum-qr",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/attendance-quorum-qr",
+      "actual": "https://diwansuite.com/en/attendance-quorum-qr"
+    },
+    {
+      "url": "/lang/en/audit-committee-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/audit-committee-management-software",
+      "actual": "https://diwansuite.com/en/audit-committee-management-software"
+    },
+    {
+      "url": "/lang/en/banking-financial-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/banking-financial-governance",
+      "actual": "https://diwansuite.com/en/banking-financial-governance"
+    },
+    {
+      "url": "/lang/en/banks-board-committee-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/banks-board-committee-governance-software",
+      "actual": "https://diwansuite.com/en/banks-board-committee-governance-software"
+    },
+    {
+      "url": "/lang/en/blog/ai-meeting-summaries-minutes",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/blog/ai-meeting-summaries-minutes",
+      "actual": "https://diwansuite.com/en/blog/ai-meeting-summaries-minutes"
+    },
+    {
+      "url": "/lang/en/blog/board-portal-vs-meeting-tools-guide",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/blog/board-portal-vs-meeting-tools-guide",
+      "actual": "https://diwansuite.com/en/blog/board-portal-vs-meeting-tools-guide"
+    },
+    {
+      "url": "/lang/en/blog/committee-governance-best-practices",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/blog/committee-governance-best-practices",
+      "actual": "https://diwansuite.com/en/blog/committee-governance-best-practices"
+    },
+    {
+      "url": "/lang/en/blog/general-assembly-quorum-importance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/blog/general-assembly-quorum-importance",
+      "actual": "https://diwansuite.com/en/blog/general-assembly-quorum-importance"
+    },
+    {
+      "url": "/lang/en/blog/how-to-choose-board-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/blog/how-to-choose-board-governance-software",
+      "actual": "https://diwansuite.com/en/blog/how-to-choose-board-governance-software"
+    },
+    {
+      "url": "/lang/en/blog/how-to-track-board-decisions",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/blog/how-to-track-board-decisions",
+      "actual": "https://diwansuite.com/en/blog/how-to-track-board-decisions"
+    },
+    {
+      "url": "/lang/en/blog",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/blog",
+      "actual": "https://diwansuite.com/en/blog"
+    },
+    {
+      "url": "/lang/en/blog/meeting-minutes-vs-meeting-decision",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/blog/meeting-minutes-vs-meeting-decision",
+      "actual": "https://diwansuite.com/en/blog/meeting-minutes-vs-meeting-decision"
+    },
+    {
+      "url": "/lang/en/blog/reduce-meeting-minutes-errors",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/blog/reduce-meeting-minutes-errors",
+      "actual": "https://diwansuite.com/en/blog/reduce-meeting-minutes-errors"
+    },
+    {
+      "url": "/lang/en/blog/what-is-meeting-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/blog/what-is-meeting-management-software",
+      "actual": "https://diwansuite.com/en/blog/what-is-meeting-management-software"
+    },
+    {
+      "url": "/lang/en/blog/why-email-not-enough-board-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/blog/why-email-not-enough-board-governance",
+      "actual": "https://diwansuite.com/en/blog/why-email-not-enough-board-governance"
+    },
+    {
+      "url": "/lang/en/board-decision-management-vs-task-management",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/board-decision-management-vs-task-management",
+      "actual": "https://diwansuite.com/en/board-decision-management-vs-task-management"
+    },
+    {
+      "url": "/lang/en/board-decisions-tracking-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/board-decisions-tracking-software",
+      "actual": "https://diwansuite.com/en/board-decisions-tracking-software"
+    },
+    {
+      "url": "/lang/en/board-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/board-governance-software",
+      "actual": "https://diwansuite.com/en/board-governance-software"
+    },
+    {
+      "url": "/lang/en/board-governance-software-government-saudi-arabia",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/board-governance-software-government-saudi-arabia",
+      "actual": "https://diwansuite.com/en/board-governance-software-government-saudi-arabia"
+    },
+    {
+      "url": "/lang/en/board-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/board-management-software",
+      "actual": "https://diwansuite.com/en/board-management-software"
+    },
+    {
+      "url": "/lang/en/board-management-system",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/board-management-system",
+      "actual": "https://diwansuite.com/en/board-management-system"
+    },
+    {
+      "url": "/lang/en/board-of-directors-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/board-of-directors-governance-software",
+      "actual": "https://diwansuite.com/en/board-of-directors-governance-software"
+    },
+    {
+      "url": "/lang/en/board-portal-saudi-arabia",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/board-portal-saudi-arabia",
+      "actual": "https://diwansuite.com/en/board-portal-saudi-arabia"
+    },
+    {
+      "url": "/lang/en/board-portal-vs-email",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/board-portal-vs-email",
+      "actual": "https://diwansuite.com/en/board-portal-vs-email"
+    },
+    {
+      "url": "/lang/en/board-portal-vs-sharepoint-google-drive",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/board-portal-vs-sharepoint-google-drive",
+      "actual": "https://diwansuite.com/en/board-portal-vs-sharepoint-google-drive"
+    },
+    {
+      "url": "/lang/en/board-portal-vs-teams-zoom",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/board-portal-vs-teams-zoom",
+      "actual": "https://diwansuite.com/en/board-portal-vs-teams-zoom"
+    },
+    {
+      "url": "/lang/en/board-secretary-system",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/board-secretary-system",
+      "actual": "https://diwansuite.com/en/board-secretary-system"
+    },
+    {
+      "url": "/lang/en/committee-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/committee-governance-software",
+      "actual": "https://diwansuite.com/en/committee-governance-software"
+    },
+    {
+      "url": "/lang/en/committee-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/committee-management-software",
+      "actual": "https://diwansuite.com/en/committee-management-software"
+    },
+    {
+      "url": "/lang/en/corporate-governance-platform",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/corporate-governance-platform",
+      "actual": "https://diwansuite.com/en/corporate-governance-platform"
+    },
+    {
+      "url": "/lang/en/corporate-meeting-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/corporate-meeting-management-software",
+      "actual": "https://diwansuite.com/en/corporate-meeting-management-software"
+    },
+    {
+      "url": "/lang/en/decision-management-tracking",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/decision-management-tracking",
+      "actual": "https://diwansuite.com/en/decision-management-tracking"
+    },
+    {
+      "url": "/lang/en/electronic-meeting-minutes-vs-paper-minutes",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/electronic-meeting-minutes-vs-paper-minutes",
+      "actual": "https://diwansuite.com/en/electronic-meeting-minutes-vs-paper-minutes"
+    },
+    {
+      "url": "/lang/en/electronic-voting-meetings",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/electronic-voting-meetings",
+      "actual": "https://diwansuite.com/en/electronic-voting-meetings"
+    },
+    {
+      "url": "/lang/en/family-business-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/family-business-governance-software",
+      "actual": "https://diwansuite.com/en/family-business-governance-software"
+    },
+    {
+      "url": "/lang/en/general-assembly-management",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/general-assembly-management",
+      "actual": "https://diwansuite.com/en/general-assembly-management"
+    },
+    {
+      "url": "/lang/en/general-assembly-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/general-assembly-management-software",
+      "actual": "https://diwansuite.com/en/general-assembly-management-software"
+    },
+    {
+      "url": "/lang/en/governance-platform-vs-meeting-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/governance-platform-vs-meeting-software",
+      "actual": "https://diwansuite.com/en/governance-platform-vs-meeting-software"
+    },
+    {
+      "url": "/lang/en/governance-reports",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/governance-reports",
+      "actual": "https://diwansuite.com/en/governance-reports"
+    },
+    {
+      "url": "/lang/en/governance-reports-dashboards",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/governance-reports-dashboards",
+      "actual": "https://diwansuite.com/en/governance-reports-dashboards"
+    },
+    {
+      "url": "/lang/en/governance-security-compliance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/governance-security-compliance",
+      "actual": "https://diwansuite.com/en/governance-security-compliance"
+    },
+    {
+      "url": "/lang/en/government-governance-platform",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/government-governance-platform",
+      "actual": "https://diwansuite.com/en/government-governance-platform"
+    },
+    {
+      "url": "/lang/en/healthcare-governance-meetings-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/healthcare-governance-meetings-software",
+      "actual": "https://diwansuite.com/en/healthcare-governance-meetings-software"
+    },
+    {
+      "url": "/lang/en/implementation-support-training",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/implementation-support-training",
+      "actual": "https://diwansuite.com/en/implementation-support-training"
+    },
+    {
+      "url": "/lang/en",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en",
+      "actual": "https://diwansuite.com/en"
+    },
+    {
+      "url": "/lang/en/integrations-board-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/integrations-board-governance",
+      "actual": "https://diwansuite.com/en/integrations-board-governance"
+    },
+    {
+      "url": "/lang/en/joint-stock-companies-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/joint-stock-companies-governance-software",
+      "actual": "https://diwansuite.com/en/joint-stock-companies-governance-software"
+    },
+    {
+      "url": "/lang/en/listed-companies-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/listed-companies-governance",
+      "actual": "https://diwansuite.com/en/listed-companies-governance"
+    },
+    {
+      "url": "/lang/en/manual-board-decision-tracking-vs-automated-platform",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/manual-board-decision-tracking-vs-automated-platform",
+      "actual": "https://diwansuite.com/en/manual-board-decision-tracking-vs-automated-platform"
+    },
+    {
+      "url": "/lang/en/manual-committee-management-vs-governance-platform",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/manual-committee-management-vs-governance-platform",
+      "actual": "https://diwansuite.com/en/manual-committee-management-vs-governance-platform"
+    },
+    {
+      "url": "/lang/en/meeting-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/meeting-management-software",
+      "actual": "https://diwansuite.com/en/meeting-management-software"
+    },
+    {
+      "url": "/lang/en/meeting-minutes-e-signature",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/meeting-minutes-e-signature",
+      "actual": "https://diwansuite.com/en/meeting-minutes-e-signature"
+    },
+    {
+      "url": "/lang/en/meeting-minutes-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/meeting-minutes-software",
+      "actual": "https://diwansuite.com/en/meeting-minutes-software"
+    },
+    {
+      "url": "/lang/en/meeting-minutes-software-vs-word-pdf",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/meeting-minutes-software-vs-word-pdf",
+      "actual": "https://diwansuite.com/en/meeting-minutes-software-vs-word-pdf"
+    },
+    {
+      "url": "/lang/en/nomination-remuneration-committee-management",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/nomination-remuneration-committee-management",
+      "actual": "https://diwansuite.com/en/nomination-remuneration-committee-management"
+    },
+    {
+      "url": "/lang/en/nonprofit-governance-meetings-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/nonprofit-governance-meetings-software",
+      "actual": "https://diwansuite.com/en/nonprofit-governance-meetings-software"
+    },
+    {
+      "url": "/lang/en/privacy",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/privacy",
+      "actual": "https://diwansuite.com/en/privacy"
+    },
+    {
+      "url": "/lang/en/real-estate-developer-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/real-estate-developer-governance-software",
+      "actual": "https://diwansuite.com/en/real-estate-developer-governance-software"
+    },
+    {
+      "url": "/lang/en/risk-committee-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/risk-committee-management-software",
+      "actual": "https://diwansuite.com/en/risk-committee-management-software"
+    },
+    {
+      "url": "/lang/en/roi-board-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/roi-board-governance",
+      "actual": "https://diwansuite.com/en/roi-board-governance"
+    },
+    {
+      "url": "/lang/en/sectors/authorities-organizations-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/sectors/authorities-organizations-governance",
+      "actual": "https://diwansuite.com/en/sectors/authorities-organizations-governance"
+    },
+    {
+      "url": "/lang/en/sectors/charitable-entities-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/sectors/charitable-entities-governance",
+      "actual": "https://diwansuite.com/en/sectors/charitable-entities-governance"
+    },
+    {
+      "url": "/lang/en/sectors/general-assemblies-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/sectors/general-assemblies-governance",
+      "actual": "https://diwansuite.com/en/sectors/general-assemblies-governance"
+    },
+    {
+      "url": "/lang/en/sectors/government-companies-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/sectors/government-companies-governance",
+      "actual": "https://diwansuite.com/en/sectors/government-companies-governance"
+    },
+    {
+      "url": "/lang/en/sectors/holding-companies-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/sectors/holding-companies-governance",
+      "actual": "https://diwansuite.com/en/sectors/holding-companies-governance"
+    },
+    {
+      "url": "/lang/en/sectors/homeowners-associations-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/sectors/homeowners-associations-governance",
+      "actual": "https://diwansuite.com/en/sectors/homeowners-associations-governance"
+    },
+    {
+      "url": "/lang/en/sectors/hospitals-clinics-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/sectors/hospitals-clinics-governance",
+      "actual": "https://diwansuite.com/en/sectors/hospitals-clinics-governance"
+    },
+    {
+      "url": "/lang/en/sectors",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/sectors",
+      "actual": "https://diwansuite.com/en/sectors"
+    },
+    {
+      "url": "/lang/en/sectors/ministries-government-entities-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/sectors/ministries-government-entities-governance",
+      "actual": "https://diwansuite.com/en/sectors/ministries-government-entities-governance"
+    },
+    {
+      "url": "/lang/en/sectors/municipalities-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/sectors/municipalities-governance",
+      "actual": "https://diwansuite.com/en/sectors/municipalities-governance"
+    },
+    {
+      "url": "/lang/en/sectors/universities-institutes-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/sectors/universities-institutes-governance",
+      "actual": "https://diwansuite.com/en/sectors/universities-institutes-governance"
+    },
+    {
+      "url": "/lang/en/security-compliance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/security-compliance",
+      "actual": "https://diwansuite.com/en/security-compliance"
+    },
+    {
+      "url": "/lang/en/support",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/support",
+      "actual": "https://diwansuite.com/en/support"
+    },
+    {
+      "url": "/lang/en/terms",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/terms",
+      "actual": "https://diwansuite.com/en/terms"
+    },
+    {
+      "url": "/lang/en/universities-board-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/en/universities-board-governance-software",
+      "actual": "https://diwansuite.com/en/universities-board-governance-software"
+    },
+    {
+      "url": "/lang/hi/about",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/about",
+      "actual": "https://diwansuite.com/hi/about"
+    },
+    {
+      "url": "/lang/hi/ai-governance-assistant",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/ai-governance-assistant",
+      "actual": "https://diwansuite.com/hi/ai-governance-assistant"
+    },
+    {
+      "url": "/lang/hi/ai-governance-decision-support",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/ai-governance-decision-support",
+      "actual": "https://diwansuite.com/hi/ai-governance-decision-support"
+    },
+    {
+      "url": "/lang/hi/ai-meeting-minutes-vs-manual-word-pdf",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/ai-meeting-minutes-vs-manual-word-pdf",
+      "actual": "https://diwansuite.com/hi/ai-meeting-minutes-vs-manual-word-pdf"
+    },
+    {
+      "url": "/lang/hi/attendance-quorum-qr",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/attendance-quorum-qr",
+      "actual": "https://diwansuite.com/hi/attendance-quorum-qr"
+    },
+    {
+      "url": "/lang/hi/audit-committee-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/audit-committee-management-software",
+      "actual": "https://diwansuite.com/hi/audit-committee-management-software"
+    },
+    {
+      "url": "/lang/hi/banking-financial-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/banking-financial-governance",
+      "actual": "https://diwansuite.com/hi/banking-financial-governance"
+    },
+    {
+      "url": "/lang/hi/banks-board-committee-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/banks-board-committee-governance-software",
+      "actual": "https://diwansuite.com/hi/banks-board-committee-governance-software"
+    },
+    {
+      "url": "/lang/hi/blog/ai-meeting-summaries-minutes",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/blog/ai-meeting-summaries-minutes",
+      "actual": "https://diwansuite.com/hi/blog/ai-meeting-summaries-minutes"
+    },
+    {
+      "url": "/lang/hi/blog/board-portal-vs-meeting-tools-guide",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/blog/board-portal-vs-meeting-tools-guide",
+      "actual": "https://diwansuite.com/hi/blog/board-portal-vs-meeting-tools-guide"
+    },
+    {
+      "url": "/lang/hi/blog/committee-governance-best-practices",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/blog/committee-governance-best-practices",
+      "actual": "https://diwansuite.com/hi/blog/committee-governance-best-practices"
+    },
+    {
+      "url": "/lang/hi/blog/general-assembly-quorum-importance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/blog/general-assembly-quorum-importance",
+      "actual": "https://diwansuite.com/hi/blog/general-assembly-quorum-importance"
+    },
+    {
+      "url": "/lang/hi/blog/how-to-choose-board-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/blog/how-to-choose-board-governance-software",
+      "actual": "https://diwansuite.com/hi/blog/how-to-choose-board-governance-software"
+    },
+    {
+      "url": "/lang/hi/blog/how-to-track-board-decisions",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/blog/how-to-track-board-decisions",
+      "actual": "https://diwansuite.com/hi/blog/how-to-track-board-decisions"
+    },
+    {
+      "url": "/lang/hi/blog",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/blog",
+      "actual": "https://diwansuite.com/hi/blog"
+    },
+    {
+      "url": "/lang/hi/blog/meeting-minutes-vs-meeting-decision",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/blog/meeting-minutes-vs-meeting-decision",
+      "actual": "https://diwansuite.com/hi/blog/meeting-minutes-vs-meeting-decision"
+    },
+    {
+      "url": "/lang/hi/blog/reduce-meeting-minutes-errors",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/blog/reduce-meeting-minutes-errors",
+      "actual": "https://diwansuite.com/hi/blog/reduce-meeting-minutes-errors"
+    },
+    {
+      "url": "/lang/hi/blog/what-is-meeting-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/blog/what-is-meeting-management-software",
+      "actual": "https://diwansuite.com/hi/blog/what-is-meeting-management-software"
+    },
+    {
+      "url": "/lang/hi/blog/why-email-not-enough-board-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/blog/why-email-not-enough-board-governance",
+      "actual": "https://diwansuite.com/hi/blog/why-email-not-enough-board-governance"
+    },
+    {
+      "url": "/lang/hi/board-decision-management-vs-task-management",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/board-decision-management-vs-task-management",
+      "actual": "https://diwansuite.com/hi/board-decision-management-vs-task-management"
+    },
+    {
+      "url": "/lang/hi/board-decisions-tracking-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/board-decisions-tracking-software",
+      "actual": "https://diwansuite.com/hi/board-decisions-tracking-software"
+    },
+    {
+      "url": "/lang/hi/board-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/board-governance-software",
+      "actual": "https://diwansuite.com/hi/board-governance-software"
+    },
+    {
+      "url": "/lang/hi/board-governance-software-government-saudi-arabia",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/board-governance-software-government-saudi-arabia",
+      "actual": "https://diwansuite.com/hi/board-governance-software-government-saudi-arabia"
+    },
+    {
+      "url": "/lang/hi/board-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/board-management-software",
+      "actual": "https://diwansuite.com/hi/board-management-software"
+    },
+    {
+      "url": "/lang/hi/board-management-system",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/board-management-system",
+      "actual": "https://diwansuite.com/hi/board-management-system"
+    },
+    {
+      "url": "/lang/hi/board-of-directors-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/board-of-directors-governance-software",
+      "actual": "https://diwansuite.com/hi/board-of-directors-governance-software"
+    },
+    {
+      "url": "/lang/hi/board-portal-saudi-arabia",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/board-portal-saudi-arabia",
+      "actual": "https://diwansuite.com/hi/board-portal-saudi-arabia"
+    },
+    {
+      "url": "/lang/hi/board-portal-vs-email",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/board-portal-vs-email",
+      "actual": "https://diwansuite.com/hi/board-portal-vs-email"
+    },
+    {
+      "url": "/lang/hi/board-portal-vs-sharepoint-google-drive",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/board-portal-vs-sharepoint-google-drive",
+      "actual": "https://diwansuite.com/hi/board-portal-vs-sharepoint-google-drive"
+    },
+    {
+      "url": "/lang/hi/board-portal-vs-teams-zoom",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/board-portal-vs-teams-zoom",
+      "actual": "https://diwansuite.com/hi/board-portal-vs-teams-zoom"
+    },
+    {
+      "url": "/lang/hi/board-secretary-system",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/board-secretary-system",
+      "actual": "https://diwansuite.com/hi/board-secretary-system"
+    },
+    {
+      "url": "/lang/hi/committee-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/committee-governance-software",
+      "actual": "https://diwansuite.com/hi/committee-governance-software"
+    },
+    {
+      "url": "/lang/hi/committee-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/committee-management-software",
+      "actual": "https://diwansuite.com/hi/committee-management-software"
+    },
+    {
+      "url": "/lang/hi/corporate-governance-platform",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/corporate-governance-platform",
+      "actual": "https://diwansuite.com/hi/corporate-governance-platform"
+    },
+    {
+      "url": "/lang/hi/corporate-meeting-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/corporate-meeting-management-software",
+      "actual": "https://diwansuite.com/hi/corporate-meeting-management-software"
+    },
+    {
+      "url": "/lang/hi/decision-management-tracking",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/decision-management-tracking",
+      "actual": "https://diwansuite.com/hi/decision-management-tracking"
+    },
+    {
+      "url": "/lang/hi/electronic-meeting-minutes-vs-paper-minutes",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/electronic-meeting-minutes-vs-paper-minutes",
+      "actual": "https://diwansuite.com/hi/electronic-meeting-minutes-vs-paper-minutes"
+    },
+    {
+      "url": "/lang/hi/electronic-voting-meetings",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/electronic-voting-meetings",
+      "actual": "https://diwansuite.com/hi/electronic-voting-meetings"
+    },
+    {
+      "url": "/lang/hi/family-business-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/family-business-governance-software",
+      "actual": "https://diwansuite.com/hi/family-business-governance-software"
+    },
+    {
+      "url": "/lang/hi/general-assembly-management",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/general-assembly-management",
+      "actual": "https://diwansuite.com/hi/general-assembly-management"
+    },
+    {
+      "url": "/lang/hi/general-assembly-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/general-assembly-management-software",
+      "actual": "https://diwansuite.com/hi/general-assembly-management-software"
+    },
+    {
+      "url": "/lang/hi/governance-platform-vs-meeting-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/governance-platform-vs-meeting-software",
+      "actual": "https://diwansuite.com/hi/governance-platform-vs-meeting-software"
+    },
+    {
+      "url": "/lang/hi/governance-reports",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/governance-reports",
+      "actual": "https://diwansuite.com/hi/governance-reports"
+    },
+    {
+      "url": "/lang/hi/governance-reports-dashboards",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/governance-reports-dashboards",
+      "actual": "https://diwansuite.com/hi/governance-reports-dashboards"
+    },
+    {
+      "url": "/lang/hi/governance-security-compliance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/governance-security-compliance",
+      "actual": "https://diwansuite.com/hi/governance-security-compliance"
+    },
+    {
+      "url": "/lang/hi/government-governance-platform",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/government-governance-platform",
+      "actual": "https://diwansuite.com/hi/government-governance-platform"
+    },
+    {
+      "url": "/lang/hi/healthcare-governance-meetings-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/healthcare-governance-meetings-software",
+      "actual": "https://diwansuite.com/hi/healthcare-governance-meetings-software"
+    },
+    {
+      "url": "/lang/hi/implementation-support-training",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/implementation-support-training",
+      "actual": "https://diwansuite.com/hi/implementation-support-training"
+    },
+    {
+      "url": "/lang/hi",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi",
+      "actual": "https://diwansuite.com/hi"
+    },
+    {
+      "url": "/lang/hi/integrations-board-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/integrations-board-governance",
+      "actual": "https://diwansuite.com/hi/integrations-board-governance"
+    },
+    {
+      "url": "/lang/hi/joint-stock-companies-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/joint-stock-companies-governance-software",
+      "actual": "https://diwansuite.com/hi/joint-stock-companies-governance-software"
+    },
+    {
+      "url": "/lang/hi/listed-companies-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/listed-companies-governance",
+      "actual": "https://diwansuite.com/hi/listed-companies-governance"
+    },
+    {
+      "url": "/lang/hi/manual-board-decision-tracking-vs-automated-platform",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/manual-board-decision-tracking-vs-automated-platform",
+      "actual": "https://diwansuite.com/hi/manual-board-decision-tracking-vs-automated-platform"
+    },
+    {
+      "url": "/lang/hi/manual-committee-management-vs-governance-platform",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/manual-committee-management-vs-governance-platform",
+      "actual": "https://diwansuite.com/hi/manual-committee-management-vs-governance-platform"
+    },
+    {
+      "url": "/lang/hi/meeting-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/meeting-management-software",
+      "actual": "https://diwansuite.com/hi/meeting-management-software"
+    },
+    {
+      "url": "/lang/hi/meeting-minutes-e-signature",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/meeting-minutes-e-signature",
+      "actual": "https://diwansuite.com/hi/meeting-minutes-e-signature"
+    },
+    {
+      "url": "/lang/hi/meeting-minutes-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/meeting-minutes-software",
+      "actual": "https://diwansuite.com/hi/meeting-minutes-software"
+    },
+    {
+      "url": "/lang/hi/meeting-minutes-software-vs-word-pdf",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/meeting-minutes-software-vs-word-pdf",
+      "actual": "https://diwansuite.com/hi/meeting-minutes-software-vs-word-pdf"
+    },
+    {
+      "url": "/lang/hi/nomination-remuneration-committee-management",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/nomination-remuneration-committee-management",
+      "actual": "https://diwansuite.com/hi/nomination-remuneration-committee-management"
+    },
+    {
+      "url": "/lang/hi/nonprofit-governance-meetings-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/nonprofit-governance-meetings-software",
+      "actual": "https://diwansuite.com/hi/nonprofit-governance-meetings-software"
+    },
+    {
+      "url": "/lang/hi/privacy",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/privacy",
+      "actual": "https://diwansuite.com/hi/privacy"
+    },
+    {
+      "url": "/lang/hi/real-estate-developer-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/real-estate-developer-governance-software",
+      "actual": "https://diwansuite.com/hi/real-estate-developer-governance-software"
+    },
+    {
+      "url": "/lang/hi/risk-committee-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/risk-committee-management-software",
+      "actual": "https://diwansuite.com/hi/risk-committee-management-software"
+    },
+    {
+      "url": "/lang/hi/roi-board-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/roi-board-governance",
+      "actual": "https://diwansuite.com/hi/roi-board-governance"
+    },
+    {
+      "url": "/lang/hi/sectors/authorities-organizations-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/sectors/authorities-organizations-governance",
+      "actual": "https://diwansuite.com/hi/sectors/authorities-organizations-governance"
+    },
+    {
+      "url": "/lang/hi/sectors/charitable-entities-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/sectors/charitable-entities-governance",
+      "actual": "https://diwansuite.com/hi/sectors/charitable-entities-governance"
+    },
+    {
+      "url": "/lang/hi/sectors/general-assemblies-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/sectors/general-assemblies-governance",
+      "actual": "https://diwansuite.com/hi/sectors/general-assemblies-governance"
+    },
+    {
+      "url": "/lang/hi/sectors/government-companies-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/sectors/government-companies-governance",
+      "actual": "https://diwansuite.com/hi/sectors/government-companies-governance"
+    },
+    {
+      "url": "/lang/hi/sectors/holding-companies-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/sectors/holding-companies-governance",
+      "actual": "https://diwansuite.com/hi/sectors/holding-companies-governance"
+    },
+    {
+      "url": "/lang/hi/sectors/homeowners-associations-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/sectors/homeowners-associations-governance",
+      "actual": "https://diwansuite.com/hi/sectors/homeowners-associations-governance"
+    },
+    {
+      "url": "/lang/hi/sectors/hospitals-clinics-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/sectors/hospitals-clinics-governance",
+      "actual": "https://diwansuite.com/hi/sectors/hospitals-clinics-governance"
+    },
+    {
+      "url": "/lang/hi/sectors",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/sectors",
+      "actual": "https://diwansuite.com/hi/sectors"
+    },
+    {
+      "url": "/lang/hi/sectors/ministries-government-entities-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/sectors/ministries-government-entities-governance",
+      "actual": "https://diwansuite.com/hi/sectors/ministries-government-entities-governance"
+    },
+    {
+      "url": "/lang/hi/sectors/municipalities-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/sectors/municipalities-governance",
+      "actual": "https://diwansuite.com/hi/sectors/municipalities-governance"
+    },
+    {
+      "url": "/lang/hi/sectors/universities-institutes-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/sectors/universities-institutes-governance",
+      "actual": "https://diwansuite.com/hi/sectors/universities-institutes-governance"
+    },
+    {
+      "url": "/lang/hi/security-compliance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/security-compliance",
+      "actual": "https://diwansuite.com/hi/security-compliance"
+    },
+    {
+      "url": "/lang/hi/support",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/support",
+      "actual": "https://diwansuite.com/hi/support"
+    },
+    {
+      "url": "/lang/hi/terms",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/terms",
+      "actual": "https://diwansuite.com/hi/terms"
+    },
+    {
+      "url": "/lang/hi/universities-board-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/hi/universities-board-governance-software",
+      "actual": "https://diwansuite.com/hi/universities-board-governance-software"
+    },
+    {
+      "url": "/lang/ur/about",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/about",
+      "actual": "https://diwansuite.com/ur/about"
+    },
+    {
+      "url": "/lang/ur/ai-governance-assistant",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/ai-governance-assistant",
+      "actual": "https://diwansuite.com/ur/ai-governance-assistant"
+    },
+    {
+      "url": "/lang/ur/ai-governance-decision-support",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/ai-governance-decision-support",
+      "actual": "https://diwansuite.com/ur/ai-governance-decision-support"
+    },
+    {
+      "url": "/lang/ur/ai-meeting-minutes-vs-manual-word-pdf",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/ai-meeting-minutes-vs-manual-word-pdf",
+      "actual": "https://diwansuite.com/ur/ai-meeting-minutes-vs-manual-word-pdf"
+    },
+    {
+      "url": "/lang/ur/attendance-quorum-qr",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/attendance-quorum-qr",
+      "actual": "https://diwansuite.com/ur/attendance-quorum-qr"
+    },
+    {
+      "url": "/lang/ur/audit-committee-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/audit-committee-management-software",
+      "actual": "https://diwansuite.com/ur/audit-committee-management-software"
+    },
+    {
+      "url": "/lang/ur/banking-financial-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/banking-financial-governance",
+      "actual": "https://diwansuite.com/ur/banking-financial-governance"
+    },
+    {
+      "url": "/lang/ur/banks-board-committee-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/banks-board-committee-governance-software",
+      "actual": "https://diwansuite.com/ur/banks-board-committee-governance-software"
+    },
+    {
+      "url": "/lang/ur/blog/ai-meeting-summaries-minutes",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/blog/ai-meeting-summaries-minutes",
+      "actual": "https://diwansuite.com/ur/blog/ai-meeting-summaries-minutes"
+    },
+    {
+      "url": "/lang/ur/blog/board-portal-vs-meeting-tools-guide",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/blog/board-portal-vs-meeting-tools-guide",
+      "actual": "https://diwansuite.com/ur/blog/board-portal-vs-meeting-tools-guide"
+    },
+    {
+      "url": "/lang/ur/blog/committee-governance-best-practices",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/blog/committee-governance-best-practices",
+      "actual": "https://diwansuite.com/ur/blog/committee-governance-best-practices"
+    },
+    {
+      "url": "/lang/ur/blog/general-assembly-quorum-importance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/blog/general-assembly-quorum-importance",
+      "actual": "https://diwansuite.com/ur/blog/general-assembly-quorum-importance"
+    },
+    {
+      "url": "/lang/ur/blog/how-to-choose-board-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/blog/how-to-choose-board-governance-software",
+      "actual": "https://diwansuite.com/ur/blog/how-to-choose-board-governance-software"
+    },
+    {
+      "url": "/lang/ur/blog/how-to-track-board-decisions",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/blog/how-to-track-board-decisions",
+      "actual": "https://diwansuite.com/ur/blog/how-to-track-board-decisions"
+    },
+    {
+      "url": "/lang/ur/blog",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/blog",
+      "actual": "https://diwansuite.com/ur/blog"
+    },
+    {
+      "url": "/lang/ur/blog/meeting-minutes-vs-meeting-decision",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/blog/meeting-minutes-vs-meeting-decision",
+      "actual": "https://diwansuite.com/ur/blog/meeting-minutes-vs-meeting-decision"
+    },
+    {
+      "url": "/lang/ur/blog/reduce-meeting-minutes-errors",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/blog/reduce-meeting-minutes-errors",
+      "actual": "https://diwansuite.com/ur/blog/reduce-meeting-minutes-errors"
+    },
+    {
+      "url": "/lang/ur/blog/what-is-meeting-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/blog/what-is-meeting-management-software",
+      "actual": "https://diwansuite.com/ur/blog/what-is-meeting-management-software"
+    },
+    {
+      "url": "/lang/ur/blog/why-email-not-enough-board-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/blog/why-email-not-enough-board-governance",
+      "actual": "https://diwansuite.com/ur/blog/why-email-not-enough-board-governance"
+    },
+    {
+      "url": "/lang/ur/board-decision-management-vs-task-management",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/board-decision-management-vs-task-management",
+      "actual": "https://diwansuite.com/ur/board-decision-management-vs-task-management"
+    },
+    {
+      "url": "/lang/ur/board-decisions-tracking-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/board-decisions-tracking-software",
+      "actual": "https://diwansuite.com/ur/board-decisions-tracking-software"
+    },
+    {
+      "url": "/lang/ur/board-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/board-governance-software",
+      "actual": "https://diwansuite.com/ur/board-governance-software"
+    },
+    {
+      "url": "/lang/ur/board-governance-software-government-saudi-arabia",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/board-governance-software-government-saudi-arabia",
+      "actual": "https://diwansuite.com/ur/board-governance-software-government-saudi-arabia"
+    },
+    {
+      "url": "/lang/ur/board-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/board-management-software",
+      "actual": "https://diwansuite.com/ur/board-management-software"
+    },
+    {
+      "url": "/lang/ur/board-management-system",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/board-management-system",
+      "actual": "https://diwansuite.com/ur/board-management-system"
+    },
+    {
+      "url": "/lang/ur/board-of-directors-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/board-of-directors-governance-software",
+      "actual": "https://diwansuite.com/ur/board-of-directors-governance-software"
+    },
+    {
+      "url": "/lang/ur/board-portal-saudi-arabia",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/board-portal-saudi-arabia",
+      "actual": "https://diwansuite.com/ur/board-portal-saudi-arabia"
+    },
+    {
+      "url": "/lang/ur/board-portal-vs-email",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/board-portal-vs-email",
+      "actual": "https://diwansuite.com/ur/board-portal-vs-email"
+    },
+    {
+      "url": "/lang/ur/board-portal-vs-sharepoint-google-drive",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/board-portal-vs-sharepoint-google-drive",
+      "actual": "https://diwansuite.com/ur/board-portal-vs-sharepoint-google-drive"
+    },
+    {
+      "url": "/lang/ur/board-portal-vs-teams-zoom",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/board-portal-vs-teams-zoom",
+      "actual": "https://diwansuite.com/ur/board-portal-vs-teams-zoom"
+    },
+    {
+      "url": "/lang/ur/board-secretary-system",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/board-secretary-system",
+      "actual": "https://diwansuite.com/ur/board-secretary-system"
+    },
+    {
+      "url": "/lang/ur/committee-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/committee-governance-software",
+      "actual": "https://diwansuite.com/ur/committee-governance-software"
+    },
+    {
+      "url": "/lang/ur/committee-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/committee-management-software",
+      "actual": "https://diwansuite.com/ur/committee-management-software"
+    },
+    {
+      "url": "/lang/ur/corporate-governance-platform",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/corporate-governance-platform",
+      "actual": "https://diwansuite.com/ur/corporate-governance-platform"
+    },
+    {
+      "url": "/lang/ur/corporate-meeting-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/corporate-meeting-management-software",
+      "actual": "https://diwansuite.com/ur/corporate-meeting-management-software"
+    },
+    {
+      "url": "/lang/ur/decision-management-tracking",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/decision-management-tracking",
+      "actual": "https://diwansuite.com/ur/decision-management-tracking"
+    },
+    {
+      "url": "/lang/ur/electronic-meeting-minutes-vs-paper-minutes",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/electronic-meeting-minutes-vs-paper-minutes",
+      "actual": "https://diwansuite.com/ur/electronic-meeting-minutes-vs-paper-minutes"
+    },
+    {
+      "url": "/lang/ur/electronic-voting-meetings",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/electronic-voting-meetings",
+      "actual": "https://diwansuite.com/ur/electronic-voting-meetings"
+    },
+    {
+      "url": "/lang/ur/family-business-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/family-business-governance-software",
+      "actual": "https://diwansuite.com/ur/family-business-governance-software"
+    },
+    {
+      "url": "/lang/ur/general-assembly-management",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/general-assembly-management",
+      "actual": "https://diwansuite.com/ur/general-assembly-management"
+    },
+    {
+      "url": "/lang/ur/general-assembly-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/general-assembly-management-software",
+      "actual": "https://diwansuite.com/ur/general-assembly-management-software"
+    },
+    {
+      "url": "/lang/ur/governance-platform-vs-meeting-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/governance-platform-vs-meeting-software",
+      "actual": "https://diwansuite.com/ur/governance-platform-vs-meeting-software"
+    },
+    {
+      "url": "/lang/ur/governance-reports",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/governance-reports",
+      "actual": "https://diwansuite.com/ur/governance-reports"
+    },
+    {
+      "url": "/lang/ur/governance-reports-dashboards",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/governance-reports-dashboards",
+      "actual": "https://diwansuite.com/ur/governance-reports-dashboards"
+    },
+    {
+      "url": "/lang/ur/governance-security-compliance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/governance-security-compliance",
+      "actual": "https://diwansuite.com/ur/governance-security-compliance"
+    },
+    {
+      "url": "/lang/ur/government-governance-platform",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/government-governance-platform",
+      "actual": "https://diwansuite.com/ur/government-governance-platform"
+    },
+    {
+      "url": "/lang/ur/healthcare-governance-meetings-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/healthcare-governance-meetings-software",
+      "actual": "https://diwansuite.com/ur/healthcare-governance-meetings-software"
+    },
+    {
+      "url": "/lang/ur/implementation-support-training",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/implementation-support-training",
+      "actual": "https://diwansuite.com/ur/implementation-support-training"
+    },
+    {
+      "url": "/lang/ur",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur",
+      "actual": "https://diwansuite.com/ur"
+    },
+    {
+      "url": "/lang/ur/integrations-board-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/integrations-board-governance",
+      "actual": "https://diwansuite.com/ur/integrations-board-governance"
+    },
+    {
+      "url": "/lang/ur/joint-stock-companies-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/joint-stock-companies-governance-software",
+      "actual": "https://diwansuite.com/ur/joint-stock-companies-governance-software"
+    },
+    {
+      "url": "/lang/ur/listed-companies-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/listed-companies-governance",
+      "actual": "https://diwansuite.com/ur/listed-companies-governance"
+    },
+    {
+      "url": "/lang/ur/manual-board-decision-tracking-vs-automated-platform",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/manual-board-decision-tracking-vs-automated-platform",
+      "actual": "https://diwansuite.com/ur/manual-board-decision-tracking-vs-automated-platform"
+    },
+    {
+      "url": "/lang/ur/manual-committee-management-vs-governance-platform",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/manual-committee-management-vs-governance-platform",
+      "actual": "https://diwansuite.com/ur/manual-committee-management-vs-governance-platform"
+    },
+    {
+      "url": "/lang/ur/meeting-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/meeting-management-software",
+      "actual": "https://diwansuite.com/ur/meeting-management-software"
+    },
+    {
+      "url": "/lang/ur/meeting-minutes-e-signature",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/meeting-minutes-e-signature",
+      "actual": "https://diwansuite.com/ur/meeting-minutes-e-signature"
+    },
+    {
+      "url": "/lang/ur/meeting-minutes-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/meeting-minutes-software",
+      "actual": "https://diwansuite.com/ur/meeting-minutes-software"
+    },
+    {
+      "url": "/lang/ur/meeting-minutes-software-vs-word-pdf",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/meeting-minutes-software-vs-word-pdf",
+      "actual": "https://diwansuite.com/ur/meeting-minutes-software-vs-word-pdf"
+    },
+    {
+      "url": "/lang/ur/nomination-remuneration-committee-management",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/nomination-remuneration-committee-management",
+      "actual": "https://diwansuite.com/ur/nomination-remuneration-committee-management"
+    },
+    {
+      "url": "/lang/ur/nonprofit-governance-meetings-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/nonprofit-governance-meetings-software",
+      "actual": "https://diwansuite.com/ur/nonprofit-governance-meetings-software"
+    },
+    {
+      "url": "/lang/ur/privacy",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/privacy",
+      "actual": "https://diwansuite.com/ur/privacy"
+    },
+    {
+      "url": "/lang/ur/real-estate-developer-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/real-estate-developer-governance-software",
+      "actual": "https://diwansuite.com/ur/real-estate-developer-governance-software"
+    },
+    {
+      "url": "/lang/ur/risk-committee-management-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/risk-committee-management-software",
+      "actual": "https://diwansuite.com/ur/risk-committee-management-software"
+    },
+    {
+      "url": "/lang/ur/roi-board-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/roi-board-governance",
+      "actual": "https://diwansuite.com/ur/roi-board-governance"
+    },
+    {
+      "url": "/lang/ur/sectors/authorities-organizations-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/sectors/authorities-organizations-governance",
+      "actual": "https://diwansuite.com/ur/sectors/authorities-organizations-governance"
+    },
+    {
+      "url": "/lang/ur/sectors/charitable-entities-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/sectors/charitable-entities-governance",
+      "actual": "https://diwansuite.com/ur/sectors/charitable-entities-governance"
+    },
+    {
+      "url": "/lang/ur/sectors/general-assemblies-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/sectors/general-assemblies-governance",
+      "actual": "https://diwansuite.com/ur/sectors/general-assemblies-governance"
+    },
+    {
+      "url": "/lang/ur/sectors/government-companies-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/sectors/government-companies-governance",
+      "actual": "https://diwansuite.com/ur/sectors/government-companies-governance"
+    },
+    {
+      "url": "/lang/ur/sectors/holding-companies-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/sectors/holding-companies-governance",
+      "actual": "https://diwansuite.com/ur/sectors/holding-companies-governance"
+    },
+    {
+      "url": "/lang/ur/sectors/homeowners-associations-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/sectors/homeowners-associations-governance",
+      "actual": "https://diwansuite.com/ur/sectors/homeowners-associations-governance"
+    },
+    {
+      "url": "/lang/ur/sectors/hospitals-clinics-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/sectors/hospitals-clinics-governance",
+      "actual": "https://diwansuite.com/ur/sectors/hospitals-clinics-governance"
+    },
+    {
+      "url": "/lang/ur/sectors",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/sectors",
+      "actual": "https://diwansuite.com/ur/sectors"
+    },
+    {
+      "url": "/lang/ur/sectors/ministries-government-entities-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/sectors/ministries-government-entities-governance",
+      "actual": "https://diwansuite.com/ur/sectors/ministries-government-entities-governance"
+    },
+    {
+      "url": "/lang/ur/sectors/municipalities-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/sectors/municipalities-governance",
+      "actual": "https://diwansuite.com/ur/sectors/municipalities-governance"
+    },
+    {
+      "url": "/lang/ur/sectors/universities-institutes-governance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/sectors/universities-institutes-governance",
+      "actual": "https://diwansuite.com/ur/sectors/universities-institutes-governance"
+    },
+    {
+      "url": "/lang/ur/security-compliance",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/security-compliance",
+      "actual": "https://diwansuite.com/ur/security-compliance"
+    },
+    {
+      "url": "/lang/ur/support",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/support",
+      "actual": "https://diwansuite.com/ur/support"
+    },
+    {
+      "url": "/lang/ur/terms",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/terms",
+      "actual": "https://diwansuite.com/ur/terms"
+    },
+    {
+      "url": "/lang/ur/universities-board-governance-software",
+      "issue": "Canonical mismatch",
+      "expected": "https://diwansuite.com/lang/ur/universities-board-governance-software",
+      "actual": "https://diwansuite.com/ur/universities-board-governance-software"
+    }
+  ]
+}

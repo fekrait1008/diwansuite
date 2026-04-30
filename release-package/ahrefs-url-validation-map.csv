@@ -1,0 +1,301 @@
+ahrefs_url,issue_type,original_error,fix_applied,validation_result,status
+https://diwansuite.com/ar,Schema.org validation error,SoftwareApplication missing @id; Question has invalid inLanguage,Added @id to SoftwareApplication; Removed inLanguage from Question type,VALID,FIXED
+https://diwansuite.com/ur/ai-governance-assistant,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/attendance-quorum-qr,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/sectors/authorities-organizations-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/ar/banking-financial-governance,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/decision-management-tracking,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/committee-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/government-governance-platform,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/sectors/municipalities-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/hi/support,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/sectors/municipalities-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/hi/sectors/hospitals-clinics-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/hi/meeting-minutes-e-signature,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/sectors,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/banking-financial-governance,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/ai-governance-decision-support,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/sectors/universities-institutes-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/ur/sectors/general-assemblies-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/ar/government-governance-platform,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/sectors/hospitals-clinics-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/en/sectors/hospitals-clinics-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/en/meeting-minutes-e-signature,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/banking-financial-governance,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/sectors,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/sectors/hospitals-clinics-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/en/support,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/sectors,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/meeting-minutes-e-signature,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/integrations-board-governance,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/board-secretary-system,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/committee-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/committee-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/integrations-board-governance,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/roi-board-governance,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/integrations-board-governance,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/listed-companies-governance,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/sectors/charitable-entities-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/en/ai-governance-assistant,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/sectors/general-assemblies-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/hi/sectors/authorities-organizations-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/ur/sectors/holding-companies-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/hi/ai-governance-decision-support,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/sectors/universities-institutes-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/en/sectors/general-assemblies-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/hi/sectors,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/governance-reports,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/sectors/general-assemblies-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/ur/sectors/municipalities-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/en/sectors/universities-institutes-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/hi/attendance-quorum-qr,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/listed-companies-governance,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/sectors/ministries-government-entities-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/hi/sectors/municipalities-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/ur/banking-financial-governance,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/general-assembly-management,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/sectors/holding-companies-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/ar/board-management-system,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur,Schema.org validation error,SoftwareApplication missing @id; Question has invalid inLanguage,Added @id to SoftwareApplication; Removed inLanguage from Question type,VALID,FIXED
+https://diwansuite.com/en/listed-companies-governance,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/sectors/charitable-entities-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/ar/sectors/universities-institutes-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/en/roi-board-governance,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi,Schema.org validation error,SoftwareApplication missing @id; Question has invalid inLanguage,Added @id to SoftwareApplication; Removed inLanguage from Question type,VALID,FIXED
+https://diwansuite.com/ar/governance-reports,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/sectors/homeowners-associations-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/hi/sectors/holding-companies-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/ur/governance-reports-dashboards,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/general-assembly-management,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/sectors/homeowners-associations-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/ar/roi-board-governance,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/support,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/sectors/homeowners-associations-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/en/sectors/charitable-entities-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/ar/sectors/ministries-government-entities-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/hi/board-management-system,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/decision-management-tracking,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/attendance-quorum-qr,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/ai-governance-assistant,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/meeting-minutes-e-signature,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/sectors/homeowners-associations-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/en/board-management-system,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/support,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en,Schema.org validation error,SoftwareApplication missing @id; Question has invalid inLanguage,Added @id to SoftwareApplication; Removed inLanguage from Question type,VALID,FIXED
+https://diwansuite.com/ur/sectors/government-companies-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/hi/governance-reports-dashboards,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/ai-governance-assistant,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/ai-governance-decision-support,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/governance-reports,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/government-governance-platform,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/general-assembly-management,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/board-management-system,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/governance-reports,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/sectors/ministries-government-entities-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/ar/ai-governance-decision-support,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/sectors/charitable-entities-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/en/board-secretary-system,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/governance-reports-dashboards,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/governance-reports-dashboards,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/committee-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/roi-board-governance,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/sectors/government-companies-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/hi/government-governance-platform,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/sectors/government-companies-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/hi/sectors/ministries-government-entities-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/ar/sectors/holding-companies-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/en/decision-management-tracking,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/board-secretary-system,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/sectors/authorities-organizations-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/hi/general-assembly-management,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/integrations-board-governance,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/attendance-quorum-qr,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/listed-companies-governance,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/board-secretary-system,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/sectors/authorities-organizations-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/ar/decision-management-tracking,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/sectors/government-companies-governance,Schema.org validation error,Service Audience type issues; areaServed invalid,Audience properly typed with audienceType; areaServed typed as Country,VALID,FIXED
+https://diwansuite.com/ar/meeting-minutes-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/board-decisions-tracking-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/joint-stock-companies-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/committee-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/board-portal-saudi-arabia,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/risk-committee-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/committee-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/governance-security-compliance,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/board-decisions-tracking-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/board-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/meeting-minutes-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/security-compliance,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/electronic-meeting-minutes-vs-paper-minutes,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ur/blog/committee-governance-best-practices,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/en/governance-platform-vs-meeting-software,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ur/joint-stock-companies-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/nomination-remuneration-committee-management,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/board-portal-vs-email,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/hi/committee-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/corporate-meeting-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/joint-stock-companies-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/board-portal-vs-email,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/en/board-decisions-tracking-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/blog/ai-meeting-summaries-minutes,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/ar/banks-board-committee-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/committee-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/board-decisions-tracking-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/blog/committee-governance-best-practices,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/ur/meeting-minutes-software-vs-word-pdf,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ar/risk-committee-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/risk-committee-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/general-assembly-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/family-business-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/meeting-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/board-of-directors-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/audit-committee-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/manual-committee-management-vs-governance-platform,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ar/blog/board-portal-vs-meeting-tools-guide,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ar/board-portal-vs-sharepoint-google-drive,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ar/blog/committee-governance-best-practices,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/hi/real-estate-developer-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/implementation-support-training,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/ai-meeting-minutes-vs-manual-word-pdf,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ar/blog/what-is-meeting-management-software,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/en/nonprofit-governance-meetings-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/board-portal-saudi-arabia,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/nonprofit-governance-meetings-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/universities-board-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/real-estate-developer-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/board-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/manual-committee-management-vs-governance-platform,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ur/governance-security-compliance,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/board-portal-saudi-arabia,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/governance-platform-vs-meeting-software,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ar/blog/general-assembly-quorum-importance,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/hi/joint-stock-companies-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/healthcare-governance-meetings-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/audit-committee-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/meeting-minutes-software-vs-word-pdf,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/hi/meeting-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/healthcare-governance-meetings-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/corporate-governance-platform,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/board-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/meeting-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/blog/why-email-not-enough-board-governance,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/ur/board-portal-vs-email,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ar/implementation-support-training,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/blog/committee-governance-best-practices,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/hi/meeting-minutes-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/meeting-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/real-estate-developer-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/blog/reduce-meeting-minutes-errors,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/ur/banks-board-committee-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/healthcare-governance-meetings-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/board-of-directors-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/manual-board-decision-tracking-vs-automated-platform,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/en/manual-board-decision-tracking-vs-automated-platform,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ar/governance-platform-vs-meeting-software,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/en/manual-committee-management-vs-governance-platform,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ur/meeting-minutes-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/board-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/banks-board-committee-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/board-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/general-assembly-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/board-portal-vs-email,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ur/board-of-directors-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/family-business-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/governance-security-compliance,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/meeting-minutes-software-vs-word-pdf,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/hi/nonprofit-governance-meetings-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/governance-platform-vs-meeting-software,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ur/corporate-governance-platform,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/nomination-remuneration-committee-management,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/healthcare-governance-meetings-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/blog/how-to-choose-board-governance-software,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/hi/family-business-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/implementation-support-training,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/manual-board-decision-tracking-vs-automated-platform,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/hi/corporate-governance-platform,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/real-estate-developer-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/board-portal-saudi-arabia,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/blog/how-to-choose-board-governance-software,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/ur/board-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/board-decision-management-vs-task-management,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ar/family-business-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/corporate-governance-platform,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/nonprofit-governance-meetings-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/board-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/blog/how-to-track-board-decisions,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/hi/universities-board-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/banks-board-committee-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/board-portal-vs-teams-zoom,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ur/universities-board-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/ai-meeting-minutes-vs-manual-word-pdf,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ar/board-governance-software-government-saudi-arabia,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/audit-committee-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/governance-security-compliance,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/nomination-remuneration-committee-management,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/board-portal-vs-teams-zoom,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/en/board-portal-vs-teams-zoom,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/hi/nomination-remuneration-committee-management,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/audit-committee-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/implementation-support-training,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/risk-committee-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/blog/meeting-minutes-vs-meeting-decision,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/hi/manual-board-decision-tracking-vs-automated-platform,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/hi/blog/how-to-choose-board-governance-software,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/ar/meeting-minutes-software-vs-word-pdf,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ar/electronic-voting-meetings,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/board-portal-vs-teams-zoom,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/en/general-assembly-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/ai-meeting-minutes-vs-manual-word-pdf,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ar/manual-committee-management-vs-governance-platform,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/en/blog/how-to-choose-board-governance-software,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/ar/board-of-directors-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/board-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/universities-board-governance-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/general-assembly-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ar/ai-meeting-minutes-vs-manual-word-pdf,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/hi/security-compliance,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/board-governance-software-government-saudi-arabia,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/blog/board-portal-vs-meeting-tools-guide,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/en/board-portal-vs-sharepoint-google-drive,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ur/board-decision-management-vs-task-management,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/en/blog/general-assembly-quorum-importance,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/ur/blog/board-portal-vs-meeting-tools-guide,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/hi/corporate-meeting-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/blog/what-is-meeting-management-software,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/hi/blog/ai-meeting-summaries-minutes,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/ur/electronic-meeting-minutes-vs-paper-minutes,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/hi/blog/what-is-meeting-management-software,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/hi/blog/reduce-meeting-minutes-errors,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/ur/blog/general-assembly-quorum-importance,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/hi/board-decision-management-vs-task-management,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/en/blog/ai-meeting-summaries-minutes,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/hi/electronic-voting-meetings,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/blog/why-email-not-enough-board-governance,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/hi/electronic-meeting-minutes-vs-paper-minutes,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/en/security-compliance,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/blog/general-assembly-quorum-importance,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/en/electronic-voting-meetings,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/security-compliance,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/blog/how-to-track-board-decisions,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/ur/board-portal-vs-sharepoint-google-drive,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/hi/board-portal-vs-sharepoint-google-drive,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/en/blog/meeting-minutes-vs-meeting-decision,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ur/blog/meeting-minutes-vs-meeting-decision,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/en/board-governance-software-government-saudi-arabia,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/electronic-meeting-minutes-vs-paper-minutes,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ur/blog/reduce-meeting-minutes-errors,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/ur/blog/what-is-meeting-management-software,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/ur/electronic-voting-meetings,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/blog/ai-meeting-summaries-minutes,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/en/blog/why-email-not-enough-board-governance,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/ur/corporate-meeting-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/ur/blog/how-to-track-board-decisions,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/hi/blog/meeting-minutes-vs-meeting-decision,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/en/blog/how-to-track-board-decisions,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/hi/blog/board-portal-vs-meeting-tools-guide,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/en/board-decision-management-vs-task-management,Schema.org validation error,ItemList inLanguage invalid,Removed inLanguage from ItemList schema,VALID,FIXED
+https://diwansuite.com/ur/board-governance-software-government-saudi-arabia,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/hi/blog/why-email-not-enough-board-governance,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
+https://diwansuite.com/en/corporate-meeting-management-software,Schema.org validation error,Service and FAQ schema issues,All schema types corrected,VALID,FIXED
+https://diwansuite.com/en/blog/reduce-meeting-minutes-errors,Schema.org validation error,FAQPage Question inLanguage invalid,Removed inLanguage from Question; kept on Answer only,VALID,FIXED
