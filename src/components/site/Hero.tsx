@@ -35,8 +35,8 @@ export function SiteHero() {
       </div>
 
       <div className="mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8">
-        <div className="grid gap-8 lg:grid-cols-2 lg:items-center lg:gap-10">
-          <div className={`max-w-2xl ${isRTL ? 'lg:order-2 lg:justify-self-end lg:text-right' : 'lg:text-left'}`}>
+        <div className={`grid gap-8 lg:grid-cols-2 lg:items-center lg:gap-10 ${isRTL ? 'lg:direction-ltr' : ''}`} style={isRTL ? { direction: 'ltr' } : undefined}>
+          <div className={`max-w-2xl ${isRTL ? 'lg:order-2 lg:justify-self-end' : 'lg:text-left'}`} style={isRTL ? { direction: 'rtl', textAlign: 'right' } : undefined}>
             <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-chart-1/25 bg-chart-1/10 px-4 py-1.5">
               <div className="h-1.5 w-1.5 animate-pulse rounded-full bg-chart-1" />
               <span className="text-sm font-bold text-chart-1" style={{ fontFamily: font }}>
