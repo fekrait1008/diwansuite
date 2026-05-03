@@ -35,8 +35,13 @@ export function SiteHero() {
       </div>
 
       <div className="mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8">
-        <div className="grid gap-8 lg:grid-cols-2 lg:items-center lg:gap-10">
-          <div className={`max-w-2xl ${isRTL ? 'lg:order-2 lg:justify-self-end lg:text-right' : 'lg:text-left'}`}>
+        {/* Force LTR on grid container so column order is predictable regardless of document direction */}
+        <div className="grid gap-8 lg:grid-cols-2 lg:items-center lg:gap-10" style={{ direction: 'ltr' }}>
+          {/* For RTL: text on RIGHT (order-2), image on LEFT (order-1). Inner content stays RTL. */}
+          <div
+            className={`max-w-2xl ${isRTL ? 'lg:order-2 lg:justify-self-end' : 'lg:text-left'}`}
+            style={isRTL ? { direction: 'rtl', textAlign: 'right' } : undefined}
+          >
             <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-chart-1/25 bg-chart-1/10 px-4 py-1.5">
               <div className="h-1.5 w-1.5 animate-pulse rounded-full bg-chart-1" />
               <span className="text-sm font-bold text-chart-1" style={{ fontFamily: font }}>
@@ -105,7 +110,8 @@ export function SiteHero() {
             </div>
           </div>
 
-          <figure className={`${isRTL ? 'lg:order-1' : ''}`} aria-label={heroVisualAlt[lang] ?? heroVisualAlt.ar}>
+          {/* For RTL: image on LEFT (order-1 = first column visually) */}
+          <figure className={`${isRTL ? 'lg:order-1' : ''}`} style={{ direction: 'ltr' }} aria-label={heroVisualAlt[lang] ?? heroVisualAlt.ar}>
             <div className="relative overflow-hidden rounded-[2rem] border border-border bg-card p-3 shadow-2xl sm:p-4 lg:p-5">
               <div className="absolute inset-x-8 top-0 h-1 rounded-b-full bg-gradient-to-r from-chart-1 via-chart-2 to-chart-1" />
               <div className="mb-3 flex items-center justify-between gap-3 rounded-2xl border border-border bg-secondary/60 px-4 py-3">
